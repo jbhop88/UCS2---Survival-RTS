@@ -1,0 +1,789 @@
+CUP Equipment and Attachments
+Preview	Class Name	Display Name	Description	Magazines	Used By
+Preview: Милиция (Yellow)	CUP_decal_BallisticShield_Militia_Yellow	Милиция (Yellow)			
+Preview: Милиция (Yellow, Worn)	CUP_decal_BallisticShield_Militia_Yellow_wron	Милиция (Yellow, Worn)			
+Preview: Милиция (White)	CUP_decal_BallisticShield_Militia	Милиция (White)			
+Preview: Милиция (White, Worn)	CUP_decal_BallisticShield_Militia_worn	Милиция (White, Worn)			
+Preview: Zenit-2DS	CUP_acc_Zenit_2DS	Zenit-2DS	Flashlight attachment
+Provides a bright light in dark areas		
+Used By 
+Preview: Zendl (Woodland)	CUP_muzzle_mfsup_Zendl_woodland	Zendl (Woodland)			CUP_arifle_Sa58RIS2_gl_woodland
+CUP_arifle_Sa58RIS2_woodland
+Preview: Zendl (Desert)	CUP_muzzle_mfsup_Zendl_desert	Zendl (Desert)			CUP_arifle_Sa58RIS2_gl_desert
+CUP_arifle_Sa58RIS2_camo
+Preview: Zendl	CUP_muzzle_mfsup_Zendl	Zendl			CUP_arifle_Sa58RIS2_gl
+CUP_arifle_Sa58RIS2
+Preview: Zeiss Z-Point (Woodland)	CUP_optic_ZeissZPoint_wood	Zeiss Z-Point (Woodland)	Short-Range Collimator Weapon Sight		
+Preview: Zeiss Z-Point (Hex)	CUP_optic_ZeissZPoint_hex	Zeiss Z-Point (Hex)	Short-Range Collimator Weapon Sight		
+Preview: Zeiss Z-Point (Desert)	CUP_optic_ZeissZPoint_desert	Zeiss Z-Point (Desert)	Short-Range Collimator Weapon Sight		CUP_smg_MP7_desert_zeiss
+Preview: Zeiss Z-Point	CUP_optic_ZeissZPoint	Zeiss Z-Point	Short-Range Collimator Weapon Sight		CUP_smg_MP7_zeiss
+Preview: XM8 Underbarrel Light Module	CUP_acc_XM8_light_module	XM8 Underbarrel Light Module	Flashlight attachment
+Provides a bright light in dark areas		CUP_arifle_XM8_Compact_Holo_Flashlight
+CUP_m8_compact_pmc
+Preview: XM8 Silencer	CUP_muzzle_snds_XM8	XM8 Silencer			CUP_arifle_XM8_Railed_ANPAS13c1_Laser_snds
+CUP_arifle_XM8_Railed_Holo_Laser_snds
+CUP_m8_holo_sd
+CUP_m8_tws_sd
+Preview: XM8 Prototype RCO (Tan)	CUP_optic_RCO_PCAP_tan	XM8 Prototype RCO (Tan)			
+Preview: XM8 Prototype RCO (OD)	CUP_optic_RCO_PCAP_OD	XM8 Prototype RCO (OD)			
+Preview: XM8 Prototype RCO (Green)	CUP_optic_RCO_PCAP_green	XM8 Prototype RCO (Green)			
+Preview: XM8 Prototype RCO	CUP_optic_RCO_PCAP	XM8 Prototype RCO			
+Preview: Vortex Razor UH-1 (Tan)	CUP_optic_VortexRazor_UH1_Tan	Vortex Razor UH-1 (Tan)	Holographics Weapon Sight
+Magnification: 1x		
+Preview: Vortex Razor UH-1 (OD)	CUP_optic_VortexRazor_UH1_OD	Vortex Razor UH-1 (OD)	Holographics Weapon Sight
+Magnification: 1x		
+Preview: Vortex Razor UH-1 (Khaki)	CUP_optic_VortexRazor_UH1_Khaki	Vortex Razor UH-1 (Khaki)	Holographics Weapon Sight
+Magnification: 1x		
+Preview: Vortex Razor UH-1 (Coyote)	CUP_optic_VortexRazor_UH1_Coyote	Vortex Razor UH-1 (Coyote)	Holographics Weapon Sight
+Magnification: 1x		CUP_arifle_AFU_Mk16_STD_EGLM_rd_flash_snds
+Preview: Vortex Razor UH-1 (Black)	CUP_optic_VortexRazor_UH1_Black	Vortex Razor UH-1 (Black)	Holographics Weapon Sight
+Magnification: 1x		CUP_arifle_AFU_ACR_blk_556_rd_snds
+Preview: VLTOR Modpod Bipod (Tan)	CUP_bipod_VLTOR_Modpod	VLTOR Modpod Bipod (Tan)			CUP_srifle_M110_ANPAS13c2
+CUP_srifle_M110_ANPVS10
+CUP_arifle_Mk16_LeupoldMk4MRT
+CUP_arifle_Mk20_LeupoldMk4MRT
+CUP_M110_TWS_EP1
+CUP_M110_NVG_EP1
+CUP_SCAR_H_LNG_Sniper
+Preview: VLTOR Modpod Bipod (OD)	CUP_bipod_VLTOR_Modpod_od	VLTOR Modpod Bipod (OD)			CUP_arifle_Mk17_STD_woodland_Optic_Laser_bipod_snds
+CUP_arifle_Mk17_CQC_woodland_Optic_Laser_bipod_snds
+Preview: VLTOR Modpod Bipod (Black)	CUP_bipod_VLTOR_Modpod_black	VLTOR Modpod Bipod (Black)			CUP_srifle_M110_Shortdot_bipod_snds
+Preview: Vector 21 Nite	CUP_Vector21Nite	Vector 21 Nite	Vectronix Vector 21 Nite		
+Used By 
+Preview: UZI Suppressor	CUP_muzzle_snds_UZI	UZI Suppressor			
+Preview: Trijicon Rx01 (OD)	CUP_optic_TrijiconRx01_od	Trijicon Rx01 (OD)	Short-Range Weapon Sight		
+Preview: Trijicon Rx01 (killFlash/OD)	CUP_optic_TrijiconRx01_kf_od	Trijicon Rx01 (killFlash/OD)	Short-Range Weapon Sight		
+Preview: Trijicon Rx01 (killFlash/Desert)	CUP_optic_TrijiconRx01_kf_desert	Trijicon Rx01 (killFlash/Desert)	Short-Range Weapon Sight		
+Preview: Trijicon Rx01 (killFlash/Black)	CUP_optic_TrijiconRx01_kf_black	Trijicon Rx01 (killFlash/Black)	Short-Range Weapon Sight		
+Preview: Trijicon Rx01 (Desert)	CUP_optic_TrijiconRx01_desert	Trijicon Rx01 (Desert)	Short-Range Weapon Sight		CUP_arifle_Sa58RIS1_des_rx01_Laser
+Preview: Trijicon Rx01 (Black)	CUP_optic_TrijiconRx01_black	Trijicon Rx01 (Black)	Short-Range Weapon Sight		CUP_arifle_Sa58RIS1_rx01_Laser
+Preview: Trijicon ACOG TA648-308 (Woodland)	CUP_optic_ACOG_TA648_308_Wdl	Trijicon ACOG TA648-308 (Woodland)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA648-308 (RDS/Woodland)	CUP_optic_ACOG_TA648_308_RDS_Wdl	Trijicon ACOG TA648-308 (RDS/Woodland)	Advanced Combat Optical Gunsight		CUP_srifle_L129A1_HG_TA648_Bipod_w
+Preview: Trijicon ACOG TA648-308 (RDS/OD)	CUP_optic_ACOG_TA648_308_RDS_od	Trijicon ACOG TA648-308 (RDS/OD)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA648-308 (RDS/Desert)	CUP_optic_ACOG_TA648_308_RDS_Desert	Trijicon ACOG TA648-308 (RDS/Desert)	Advanced Combat Optical Gunsight		CUP_srifle_L129A1_HG_TA648_Bipod_d
+Preview: Trijicon ACOG TA648-308 (RDS/Coyote)	CUP_optic_ACOG_TA648_308_RDS_coyo	Trijicon ACOG TA648-308 (RDS/Coyote)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA648-308 (RDS)	CUP_optic_ACOG_TA648_308_RDS_Black	Trijicon ACOG TA648-308 (RDS)	Advanced Combat Optical Gunsight		CUP_srifle_L129A1_HG_TA648_Bipod
+Preview: Trijicon ACOG TA648-308 (OD)	CUP_optic_ACOG_TA648_308_od	Trijicon ACOG TA648-308 (OD)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA648-308 (Desert)	CUP_optic_ACOG_TA648_308_Desert	Trijicon ACOG TA648-308 (Desert)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA648-308 (Coyote)	CUP_optic_ACOG_TA648_308_coyo	Trijicon ACOG TA648-308 (Coyote)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA648-308	CUP_optic_ACOG_TA648_308_Black	Trijicon ACOG TA648-308	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA31F (Reflex/Woodland)	CUP_optic_ACOG_Reflex_Wood	Trijicon ACOG TA31F (Reflex/Woodland)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA31F (Reflex/Desert)	CUP_optic_ACOG_Reflex_Desert	Trijicon ACOG TA31F (Reflex/Desert)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA31F (Reflex)	CUP_optic_ACOG	Trijicon ACOG TA31F (Reflex)	Advanced Combat Optical Gunsight		
+Used By 
+Preview: Trijicon ACOG TA31F (killFlash/Woodland)	CUP_optic_ACOG_TA31_KF_Wood	Trijicon ACOG TA31F (killFlash/Woodland)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA31F (killFlash/Desert)	CUP_optic_ACOG_TA31_KF_Desert	Trijicon ACOG TA31F (killFlash/Desert)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA31F (killFlash/Black)	CUP_optic_ACOG_TA31_KF	Trijicon ACOG TA31F (killFlash/Black)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA31F	CUP_optic_ACOG2	Trijicon ACOG TA31F	Advanced Combat Optical Gunsight		
+Used By 
+Preview: Trijicon ACOG TA01NSN (Tropic)	CUP_optic_ACOG_TA01NSN_Tropic	Trijicon ACOG TA01NSN (Tropic)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01NSN (Tan)	CUP_optic_ACOG_TA01NSN_Tan	Trijicon ACOG TA01NSN (Tan)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01NSN (RMR/Tropic)	CUP_optic_ACOG_TA01NSN_RMR_Tropic	Trijicon ACOG TA01NSN (RMR/Tropic)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01NSN (RMR/Tan)	CUP_optic_ACOG_TA01NSN_RMR_Tan	Trijicon ACOG TA01NSN (RMR/Tan)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01NSN (RMR/OD)	CUP_optic_ACOG_TA01NSN_RMR_OD	Trijicon ACOG TA01NSN (RMR/OD)	Advanced Combat Optical Gunsight		CUP_arifle_M4A1_SOMMOD_ELCAN_snds_green
+Preview: Trijicon ACOG TA01NSN (RMR/Coyote)	CUP_optic_ACOG_TA01NSN_RMR_Coyote	Trijicon ACOG TA01NSN (RMR/Coyote)	Advanced Combat Optical Gunsight		CUP_arifle_M4A1_SOMMOD_ACOG_snds_tan
+Preview: Trijicon ACOG TA01NSN (RMR)	CUP_optic_ACOG_TA01NSN_RMR_Black	Trijicon ACOG TA01NSN (RMR)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01NSN (OD)	CUP_optic_ACOG_TA01NSN_OD	Trijicon ACOG TA01NSN (OD)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01NSN (Coyote)	CUP_optic_RCO_desert	Trijicon ACOG TA01NSN (Coyote)	Advanced Combat Optical Gunsight		CUP_arifle_M4A3_desert_GL_ACOG_Laser
+CUP_arifle_Sa58V_ACOG_Laser
+CUP_M4A3_RCO_GL_EP1
+CUP_Sa58V_RCO_EP1
+Preview: Trijicon ACOG TA01NSN	CUP_optic_RCO	Trijicon ACOG TA01NSN	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01B (Tropic)	CUP_optic_ACOG_TA01B_Tropic	Trijicon ACOG TA01B (Tropic)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01B (Tan)	CUP_optic_ACOG_TA01B_Tan	Trijicon ACOG TA01B (Tan)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01B (RMR/Tropic)	CUP_optic_ACOG_TA01B_RMR_Tropic	Trijicon ACOG TA01B (RMR/Tropic)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01B (RMR/Tan)	CUP_optic_ACOG_TA01B_RMR_Tan	Trijicon ACOG TA01B (RMR/Tan)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01B (RMR/OD)	CUP_optic_ACOG_TA01B_RMR_OD	Trijicon ACOG TA01B (RMR/OD)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01B (RMR/Coyote)	CUP_optic_ACOG_TA01B_RMR_Coyote	Trijicon ACOG TA01B (RMR/Coyote)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01B (RMR)	CUP_optic_ACOG_TA01B_RMR_Black	Trijicon ACOG TA01B (RMR)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01B (OD)	CUP_optic_ACOG_TA01B_OD	Trijicon ACOG TA01B (OD)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01B (Coyote)	CUP_optic_ACOG_TA01B_Coyote	Trijicon ACOG TA01B (Coyote)	Advanced Combat Optical Gunsight		
+Preview: Trijicon ACOG TA01B	CUP_optic_ACOG_TA01B_Black	Trijicon ACOG TA01B	Advanced Combat Optical Gunsight		
+Preview: TGP-A silencer (Woodland)	CUP_muzzle_TGPA_woodland	TGP-A silencer (Woodland)			
+Preview: TGP-A silencer (Desert)	CUP_muzzle_TGPA_desert	TGP-A silencer (Desert)			
+Preview: TGP-A silencer	CUP_muzzle_TGPA	TGP-A silencer			CUP_arifle_AK74M_GL_kobra_snds
+CUP_arifle_AK74M_kobra_snds
+Preview: SVD half camo green	CUP_SVD_camo_g_half	SVD half camo green	Additional camo for SVD		
+Preview: SVD half camo desert	CUP_SVD_camo_d_half	SVD half camo desert	Additional camo for SVD		
+Preview: SVD camo green	CUP_SVD_camo_g	SVD camo green	Additional camo for SVD		CUP_srifle_SVD_wdl_ghillie
+CUP_SVD_CAMO
+CUP_srifle_AFU_SVD_wdl_ghillie_snds
+Preview: SVD camo desert	CUP_SVD_camo_d	SVD camo desert	Additional camo for SVD		CUP_srifle_SVD_des_ghillie_pso
+CUP_SVD_des_EP1
+Preview: SUSAT L9A1	CUP_optic_SUSAT	SUSAT L9A1	Medium range weapon optic		CUP_arifle_L85A2_SUSAT_Laser
+CUP_arifle_L85A2_GL_SUSAT_Laser
+CUP_BAF_L85A2_RIS_SUSAT
+CUP_BAF_L85A2_UGL_SUSAT
+Preview: SureFire XC1-C Flashlight	CUP_acc_SF_XC1	SureFire XC1-C Flashlight	Pistol Flashlight		CUP_hgun_SWM327MP_reddot_flash
+Preview: Surefire FlashHider	CUP_acc_sffh	Surefire FlashHider			
+Preview: Sound Suppressor (6.8 SPC)	CUP_muzzle_snds_68SPC	Sound Suppressor (6.8 SPC)			
+Preview: Sound Suppressor (4.6 mm)	CUP_muzzle_snds_MP7	Sound Suppressor (4.6 mm)			CUP_smg_MP7_woodland_Holo_Laser_Snds
+CUP_smg_MP7_Holo_Laser_Snds
+Preview: SOCOM762-RC	CUP_muzzle_snds_socom762rc	SOCOM762-RC			CUP_arifle_AFU_G3A3_modern_ris_pvs10_bipod
+Preview: SMAW Optical Scope	CUP_optic_SMAW_Scope	SMAW Optical Scope	Scope specifically used on the SMAW		CUP_launch_Mk153Mod0_SMAWOptics
+CUP_launch_Mk153Mod0_blk_SMAWOptics
+CUP_SMAW
+Preview: Silencer vz. 61	CUP_muzzle_snds_SA61	Silencer vz. 61			
+Preview: Silencer SR-3M	CUP_muzzle_snds_SR3M	Silencer SR-3M			CUP_arifle_SR3M_Vikhr_VFG_snds
+Preview: Silencer (MicroUZI)	CUP_muzzle_snds_MicroUzi	Silencer (MicroUZI)			CUP_hgun_MicroUzi_snds
+CUP_UZI_SD_EP1
+Preview: Silencer (M14)	CUP_muzzle_snds_M14	Silencer (M14)			CUP_srifle_M14_LeupoldMk4_snd
+Preview: Silencer (M9)	CUP_muzzle_snds_M9	Silencer (M9)			CUP_hgun_M9_snds
+CUP_M9SD
+Preview: SE Red Dot	CUP_optic_SERedDot	SE Red Dot	Cheap Generic Red Dot sight		CUP_hgun_SWM327MP_reddot
+CUP_hgun_SWM327MP_reddot_flash
+Preview: Scope for Remington 700	CUP_optic_Remington	Scope for Remington 700	Medium-Range scope
+Magnification: 4x		CUP_srifle_Remington700_scoped
+Preview: Schmidt and Bender 3-12x50 PM II (Tan)	CUP_optic_SB_3_12x50_PMII_Tan	Schmidt and Bender 3-12x50 PM II (Tan)	Long Range Scope typically mounted on high power sniper rifles like the AS-50
+Magnification: 3x–12x		
+Preview: Schmidt and Bender 3-12x50 PM II	CUP_optic_SB_3_12x50_PMII	Schmidt and Bender 3-12x50 PM II	Long Range Scope typically mounted on high power sniper rifles like the AS-50
+Magnification: 3x–12x		
+Used By 
+Preview: Schmidt and Bender 1.1-4x20 PM ShortDot (Tan)	CUP_optic_SB_11_4x20_PM_tan	Schmidt and Bender 1.1-4x20 PM ShortDot (Tan)	Medium to Short range scope typically used on Assault rifles
+Magnification: 1.1x–4x		
+Preview: Schmidt and Bender 1.1-4x20 PM ShortDot (OD)	CUP_optic_SB_11_4x20_PM_od	Schmidt and Bender 1.1-4x20 PM ShortDot (OD)	Medium to Short range scope typically used on Assault rifles
+Magnification: 1.1x–4x		CUP_arifle_Mk17_CQC_woodland_Optic_Laser_bipod_snds
+Preview: Schmidt and Bender 1.1-4x20 PM ShortDot	CUP_optic_SB_11_4x20_PM	Schmidt and Bender 1.1-4x20 PM ShortDot	Medium to Short range scope typically used on Assault rifles
+Magnification: 1.1x–4x		CUP_arifle_HK417_20_Scope
+CUP_srifle_M110_Shortdot_bipod_snds
+CUP_arifle_Mk20_SB11420_snds
+CUP_SCAR_H_LNG_Sniper_SD
+Preview: Redfield AR-TEL	CUP_optic_artel_m14	Redfield AR-TEL	Long Range Optical Scope
+Magnification: 3x-9x		CUP_srifle_M21_artel
+Preview: QDSS NT4 5.56mm Suppressor (Woodland)	CUP_muzzle_snds_M16_camo	QDSS NT4 5.56mm Suppressor (Woodland)			
+Used By 
+Preview: QDSS NT4 5.56mm Suppressor (Desert)	CUP_muzzle_snds_M16_desert	QDSS NT4 5.56mm Suppressor (Desert)			CUP_arifle_M4A1_SOMMOD_ELCAN_snds_tan
+Preview: QDSS NT4 5.56mm Suppressor (Coyote)	CUP_muzzle_snds_M16_coyote	QDSS NT4 5.56mm Suppressor (Coyote)			CUP_arifle_HK416_CQB_Desert_G33_snds_las
+CUP_arifle_HK416_CQB_AG36_Desert_G33_snds_las
+CUP_arifle_AFU_Mk16_STD_EGLM_rd_flash_snds
+Preview: QDSS NT4 5.56mm Suppressor (Black)	CUP_muzzle_snds_M16	QDSS NT4 5.56mm Suppressor (Black)			
+Used By 
+Preview: PSO-3 Scope (w/o eyepiece)	CUP_optic_PSO_3_open	PSO-3 Scope (w/o eyepiece)	Long range Russian optic
+Magnification: 8x		
+Preview: PSO-3 Scope	CUP_optic_PSO_3	PSO-3 Scope	Long range Russian optic
+Magnification: 8x		CUP_srifle_ksvk_PSO3
+CUP_ksvk
+Preview: PSO-1-1 Scope (w/o eyepiece)	CUP_optic_PSO_1_1_open	PSO-1-1 Scope (w/o eyepiece)	Medium to Long range Russian optic
+Magnification: 4x		CUP_arifle_AS_VAL_VFG_pso_open
+Preview: PSO-1-1 Scope	CUP_optic_PSO_1_1	PSO-1-1 Scope	PSO-1-1 Scope		CUP_srifle_VSSVintorez_pso
+CUP_arifle_AS_VAL_pso
+CUP_VSS_vintorez
+Preview: PSO-1 Scope (w/o eyepiece/AK)	CUP_optic_PSO_1_AK_open	PSO-1 Scope (w/o eyepiece/AK)	Medium to Long range Russian optic
+Magnification: 4x		CUP_arifle_AK74M_pso_open
+CUP_arifle_AK74M_GL_pso_open
+Preview: PSO-1 Scope (w/o eyepiece)	CUP_optic_PSO_1_open	PSO-1 Scope (w/o eyepiece)	Medium to Long range Russian optic
+Magnification: 4x		
+Preview: PSO-1 Scope (AK)	CUP_optic_PSO_1_AK	PSO-1 Scope (AK)	Medium to Long range Russian optic
+Magnification: 4x		
+Used By 
+Preview: PSO-1 Scope	CUP_optic_PSO_1	PSO-1 Scope	Medium to Long range Russian optic
+Magnification: 4x		
+Used By 
+Preview: Prototype Laser Aiming Module	CUP_acc_mk23_lam_f	Prototype Laser Aiming Module	Flashlight attachment
+Provides a bright light in dark areas		
+Preview: Polizei (Yellow)	CUP_decal_BallisticShield_Polizei_Yellow	Polizei (Yellow)			
+Preview: Polizei (Yellow, Worn)	CUP_decal_BallisticShield_Polizei_Yellow_wron	Polizei (Yellow, Worn)			
+Preview: Polizei (White)	CUP_decal_BallisticShield_Polizei	Polizei (White)			
+Preview: Polizei (White, Worn)	CUP_decal_BallisticShield_Polizei_worn	Polizei (White, Worn)			
+Preview: Police (Yellow)	CUP_decal_BallisticShield_Police_Yellow	Police (Yellow)			
+Preview: Police (Yellow, Worn)	CUP_decal_BallisticShield_Police_Yellow_wron	Police (Yellow, Worn)			
+Preview: Police (White)	CUP_decal_BallisticShield_Police	Police (White)			
+Preview: Police (White, Worn)	CUP_decal_BallisticShield_Police_worn	Police (White, Worn)			
+Preview: PO4x34	CUP_optic_GrozaScope	PO4x34	Medium range Russian optic
+Magnification: 4x		CUP_arifle_OTS14_GROZA_scope_snds
+CUP_arifle_OTS14_GROZA_762_scope_snds
+Preview: Pistol IR Laser Sight	CUP_acc_MLPLS_Laser	Pistol IR Laser Sight	Infrared laser pointer		
+Preview: PGO-7V3	CUP_optic_PGO7V3	PGO-7V3	Magnification: 2.7x		CUP_launch_RPG7V_PGO7V3
+Preview: PGO-7V2	CUP_optic_PGO7V2	PGO-7V2	Magnification: 2.7x		CUP_launch_RPG7V_PGO7V2
+Preview: PGO-7V	CUP_optic_PGO7V	PGO-7V	Magnification: 2.7x		CUP_launch_RPG7V_PGO7V
+Preview: Pecheneg 1P78 Scope	CUP_optic_PechenegScope	Pecheneg 1P78 Scope	Medium range Russian optic
+Magnification: 2.8x		CUP_arifle_RPK74M_1p78
+CUP_lmg_Pecheneg_PScope
+CUP_Pecheneg
+Preview: PE	CUP_optic_PEM	PE	Medium-Range scope
+Magnification: 4x		CUP_srifle_Mosin_Nagant_PEM
+Preview: PBS-4 silencer	CUP_muzzle_PBS4	PBS-4 silencer			CUP_arifle_AKS74UN_kobra_snds
+CUP_AKS_74_UN_kobra
+Preview: PBS-1 Silencer	CUP_muzzle_Bizon	PBS-1 Silencer			CUP_arifle_AKM_snds
+CUP_smg_bizon_snds
+CUP_bizon_silenced
+Preview: PB 6P9 silencer	CUP_muzzle_PB6P9	PB 6P9 silencer			CUP_hgun_PB6P9_snds
+CUP_MakarovSD
+Preview: OTs-14 silencer	CUP_muzzle_snds_groza	OTs-14 silencer			CUP_arifle_OTS14_GROZA_scope_snds
+CUP_arifle_OTS14_GROZA_762_scope_snds
+Preview: OKP-7 (Woodland)	CUP_optic_OKP_7_w	OKP-7 (Woodland)	Russian Reflex Sight		
+Preview: OKP-7 (RIS/Woodland)	CUP_optic_OKP_7_w_rail	OKP-7 (RIS/Woodland)	Russian Reflex Sight		
+Preview: OKP-7 (RIS/Desert)	CUP_optic_OKP_7_d_rail	OKP-7 (RIS/Desert)	Russian Reflex Sight		
+Preview: OKP-7 (RIS)	CUP_optic_OKP_7_rail	OKP-7 (RIS)	Russian Reflex Sight		CUP_arifle_AK12_GP34_black_OKP7
+CUP_arifle_AK12_black_OKP7
+CUP_arifle_AK19_AFG_black_OKP7
+Preview: OKP-7 (Desert)	CUP_optic_OKP_7_d	OKP-7 (Desert)	Russian Reflex Sight		
+Preview: OKP-7	CUP_optic_OKP_7	OKP-7	Russian Reflex Sight		
+Preview: NSPU Scope / 1PN34	CUP_optic_NSPU	NSPU Scope / 1PN34	Night Vision Scope
+Magnification: 3.5x		CUP_srifle_SVD_NSPU
+CUP_arifle_AKS74_NSPU
+CUP_AKS_74_NSPU
+CUP_SVD_NSPU_EP1
+Preview: NSPU (1PN24)	CUP_optic_NSPU_RPG	NSPU (1PN24)	Magnification: 3.5x		CUP_launch_RPG7V_NSPU
+Preview: No.32 MK II	CUP_optic_no23mk2	No.32 MK II	Medium-Range scope
+Magnification: 3.5x		CUP_srifle_LeeEnfield_T
+Preview: MP5SD6 Flashlight	CUP_acc_Flashlight_MP5SD	MP5SD6 Flashlight	Flashlight attachment
+Provides a bright light in dark areas		
+Preview: MP5 Flashlight	CUP_acc_Flashlight_MP5	MP5 Flashlight	Flashlight attachment
+Provides a bright light in dark areas		CUP_smg_MP5A5_flashlight
+Preview: MP5 9mm Flash Hider	CUP_muzzle_fh_MP5	MP5 9mm Flash Hider			
+Preview: Moscow Bombing File	CUP_item_Moscow_Bombing_File	Moscow Bombing File	Moscow Bombing File		
+Preview: Money	CUP_item_Money	Money	Money		
+Preview: Mk 17 Silencer	CUP_muzzle_snds_SCAR_H	Mk 17 Silencer			
+Used By 
+Preview: Mk 17 Flash Hider	CUP_muzzle_mfsup_SCAR_H	Mk 17 Flash Hider			CUP_arifle_Mk17_CQC_SFG_Aim_mfsup
+CUP_SCAR_H_CQC_CCO
+Preview: Mk 16 Silencer	CUP_muzzle_snds_SCAR_L	Mk 16 Silencer			CUP_arifle_Mk16_CQC_FG_Aim_Laser_snds
+CUP_arifle_Mk16_CQC_FG_woodland_Holo_Laser_snds
+CUP_arifle_Mk16_CQC_AFG_woodland_T1_Laser_snds
+CUP_arifle_Mk16_STD_EGLM_woodland_Elcan_Laser_snds
+CUP_arifle_Mk16_STD_EGLM_woodland_Holo_Laser_snds
+CUP_SCAR_L_CQC_CCO_SD
+Preview: Mk 16 Flash Hider	CUP_muzzle_mfsup_SCAR_L	Mk 16 Flash Hider			CUP_arifle_Mk16_CQC_EGLM_Holo_Laser_mfsup
+CUP_arifle_Mk16_STD_EGLM_ANPAS13c1_Laser_mfsup
+CUP_SCAR_L_CQC_EGLM_Holo
+CUP_SCAR_L_STD_EGLM_TWS
+Preview: Mk 12 SPR Silencer	CUP_muzzle_snds_Mk12	Mk 12 SPR Silencer			
+Preview: Meprolight M21 Reflex (Triangle Reticle)	CUP_optic_MEPRO_tri_clear	Meprolight M21 Reflex (Triangle Reticle)	Meprolight M21 Reflex (Triangle Reticle)		
+Preview: Meprolight M21 Reflex (Open X Reticle)	CUP_optic_MEPRO_openx_orange	Meprolight M21 Reflex (Open X Reticle)	Meprolight M21 Reflex Open X Reticle		
+Preview: Meprolight M21 Reflex (MOA Reticle)	CUP_optic_MEPRO_moa_clear	Meprolight M21 Reflex (MOA Reticle)	Meprolight M21 Reflex (MOA Reticle)		
+Preview: Meprolight M21 Reflex (Bullseye Reticle)	CUP_optic_MEPRO	Meprolight M21 Reflex (Bullseye Reticle)	Meprolight M21 Reflex (Bullseye Reticle)		
+Preview: Meopta ZD-Dot + AimM	CUP_optic_AIMM_ZDDOT_BLK	Meopta ZD-Dot + AimM	Magnifying optics x3
+Tiltable		CUP_CZ_BREN2_556_11_GL_AIMMZDDot_Laser
+Preview: Meopta ZD-Dot	CUP_optic_ZDDot	Meopta ZD-Dot	Short-Range Red Dot Weapon Sight		
+Used By 
+Preview: Meopta Rapid Acquisition Dot	CUP_optic_MRad	Meopta Rapid Acquisition Dot	Short-Range Red Dot Weapon Sight for SMG's		CUP_smg_EVO_MRad_Flashlight
+CUP_smg_EVO_MRad_Flashlight_Snds
+CUP_Evo_mrad_ACR
+CUP_Evo_sd_ACR
+Preview: MARS + AimM (OD)	CUP_optic_AIMM_MARS_OD	MARS + AimM (OD)	Magnifying optics x3
+Tiltable		
+Preview: MARS + AimM (Desert)	CUP_optic_AIMM_MARS_TAN	MARS + AimM (Desert)	Magnifying optics x3
+Tiltable		
+Preview: MARS + AimM (Black)	CUP_optic_AIMM_MARS_BLK	MARS + AimM (Black)	Magnifying optics x3
+Tiltable		
+Preview: MARS (Tan)	CUP_optic_MARS_tan	MARS (Tan)	Short-Range Collimator Weapon Sight		
+Preview: MARS (Olive)	CUP_optic_MARS_OD	MARS (Olive)	Short-Range Collimator Weapon Sight		
+Preview: MARS	CUP_optic_MARS	MARS	Short-Range Collimator Weapon Sight		CUP_arifle_X95_mars
+CUP_arifle_X95_Grippod_mars
+Preview: MAC-10 Suppressor	CUP_muzzle_mfsup_Suppressor_Mac10	MAC-10 Suppressor			CUP_smg_Mac10_snd
+Preview: MAAWS optical sight	CUP_optic_MAAWS_Scope	MAAWS optical sight	Magnifying scope for the M3 MAAWS		CUP_launch_MAAWS_Scope
+CUP_MAAWS
+Preview: M110 Suppressor(Woodland)	CUP_muzzle_snds_M110_woodland	M110 Suppressor(Woodland)			
+Preview: M110 Suppressor (Tan)	CUP_muzzle_snds_M110	M110 Suppressor (Tan)			
+Preview: M110 Suppressor (Black)	CUP_muzzle_snds_M110_black	M110 Suppressor (Black)			CUP_srifle_M110_Shortdot_bipod_snds
+Preview: M107 Suppressor .50 BMG (Woodland)	CUP_muzzle_mfsup_Suppressor_M107_Woodland	M107 Suppressor .50 BMG (Woodland)			
+Preview: M107 Suppressor .50 BMG (Winter)	CUP_muzzle_mfsup_Suppressor_M107_Snow	M107 Suppressor .50 BMG (Winter)			
+Preview: M107 Suppressor .50 BMG (Grey)	CUP_muzzle_mfsup_Suppressor_M107_Grey	M107 Suppressor .50 BMG (Grey)			
+Preview: M107 Suppressor .50 BMG (Desert)	CUP_muzzle_mfsup_Suppressor_M107_Desert	M107 Suppressor .50 BMG (Desert)			
+Preview: M107 Suppressor .50 BMG (Black)	CUP_muzzle_mfsup_Suppressor_M107_Black	M107 Suppressor .50 BMG (Black)			
+Preview: M68 CCO + AimM (QRP/OD)	CUP_optic_AIMM_M68_OD	M68 CCO + AimM (QRP/OD)	Magnifying optics x3
+Tiltable		
+Preview: M68 CCO + AimM (QRP/Desert)	CUP_optic_AIMM_M68_TAN	M68 CCO + AimM (QRP/Desert)	Magnifying optics x3
+Tiltable		
+Preview: M68 CCO + AimM (QRP/Black)	CUP_optic_AIMM_M68_BLK	M68 CCO + AimM (QRP/Black)	Magnifying optics x3
+Tiltable		
+Preview: M68 CCO + AimM (OD)	CUP_optic_AIMM_COMPM2_OD	M68 CCO + AimM (OD)	Magnifying optics x3
+Tiltable		
+Preview: M68 CCO + AimM (Coyote)	CUP_optic_AIMM_COMPM2_TAN	M68 CCO + AimM (Coyote)	Magnifying optics x3
+Tiltable		
+Preview: M68 CCO + AimM (Black)	CUP_optic_AIMM_COMPM2_BLK	M68 CCO + AimM (Black)	Magnifying optics x3
+Tiltable		
+Preview: M68 CCO (Woodland)	CUP_optic_CompM2_Woodland	M68 CCO (Woodland)	Short-Range Collimator Weapon Sight		
+Preview: M68 CCO (Woodland 2)	CUP_optic_CompM2_Woodland2	M68 CCO (Woodland 2)	Short-Range Collimator Weapon Sight		
+Preview: M68 CCO (QRP/OD)	CUP_optic_CompM2_low_OD	M68 CCO (QRP/OD)	Short-Range Collimator Weapon Sight		
+Used By 
+Preview: M68 CCO (QRP/Coyote)	CUP_optic_CompM2_low_coyote	M68 CCO (QRP/Coyote)	Short-Range Collimator Weapon Sight		CUP_arifle_M4A3_desert_Aim_Flashlight
+CUP_lmg_Mk48_des_Aim_Laser
+CUP_arifle_Sa58V_Aim_Laser
+CUP_M4A3_CCO_EP1
+CUP_Mk_48_DES_EP1
+CUP_Sa58V_CCO_EP1
+Preview: M68 CCO (QRP/Black)	CUP_optic_CompM2_low	M68 CCO (QRP/Black)	Short-Range Collimator Weapon Sight		
+Used By 
+Preview: M68 CCO (OD)	CUP_optic_CompM2_OD	M68 CCO (OD)	Short-Range Collimator Weapon Sight		
+Preview: M68 CCO (Desert)	CUP_optic_CompM2_Desert	M68 CCO (Desert)	Short-Range Collimator Weapon Sight		
+Preview: M68 CCO (Coyote)	CUP_optic_CompM2_Coyote	M68 CCO (Coyote)	Short-Range Collimator Weapon Sight		
+Preview: M68 CCO (Black)	CUP_optic_CompM2_Black	M68 CCO (Black)	Short-Range Collimator Weapon Sight		CUP_srifle_M14_CCO
+CUP_arifle_M16A4_GL_Laser
+Preview: M24/M40 camo half	CUP_Mxx_camo_half	M24/M40 camo half	Additional camouflage		
+Preview: M24/M40 camo	CUP_Mxx_camo	M24/M40 camo	Additional camouflage		CUP_srifle_M24_ghillie
+CUP_srifle_M24_wdl_leupoldmk4_camo_bipod_snd
+Preview: M3A1 OSS Suppressor (Sand)	CUP_muzzle_snds_M3A1_snd	M3A1 OSS Suppressor (Sand)			CUP_smg_M3A1_snd_SD
+Preview: M3A1 OSS Suppressor (Grey)	CUP_muzzle_snds_M3A1	M3A1 OSS Suppressor (Grey)			CUP_smg_M3A1_SD
+Preview: M3A1 OSS Suppressor (Green)	CUP_muzzle_snds_M3A1_grn	M3A1 OSS Suppressor (Green)			CUP_smg_M3A1_grn_SD
+Preview: M3A1 OSS Suppressor (Black)	CUP_muzzle_snds_M3A1_blk	M3A1 OSS Suppressor (Black)			CUP_smg_M3A1_blk_SD
+Preview: LRTV	CUP_LRTV	LRTV	Vectronix LRTV Rangefinder	Designator Batteries	CUP_Item_LRTV
+CUP_B_CZ_SpecOps_Recon_DES
+CUP_B_CZ_SpecOps_TL_DES
+CUP_B_CZ_SpecOps_Recon_WDL
+CUP_B_CZ_SpecOps_TL_WDL
+CUP_B_ILDU_Soldier_ReconScout
+CUP_B_ILDU_Soldier_ReconScoutAT
+Preview: LLM-01 (OD)	CUP_acc_LLM01_od_L	LLM-01 (OD)	IR Laser attachment		
+Preview: LLM-01 (Hex)	CUP_acc_LLM01_hex_L	LLM-01 (Hex)	IR Laser attachment		CUP_arifle_G36K_KSK_hex_G33_snds_las
+CUP_arifle_G36K_KSK_hex_ZO_las
+Preview: LLM-01 (Desert)	CUP_acc_LLM01_desert_L	LLM-01 (Desert)	IR Laser attachment		CUP_arifle_G36K_KSK_des_G33_snds_las
+CUP_arifle_G36K_KSK_des_ZO_las
+Preview: LLM-01 (Coyote)	CUP_acc_LLM01_coyote_L	LLM-01 (Coyote)	IR Laser attachment		
+Preview: LLM-01	CUP_acc_LLM01_L	LLM-01	IR Laser attachment		CUP_arifle_AFU_G36C_hex_llm_micro
+Preview: LLM MKIII (OD)	CUP_acc_LLM_od	LLM MKIII (OD)	Weapon mounted light.		
+Preview: LLM MKIII (Black)	CUP_acc_LLM_black	LLM MKIII (Black)	Weapon mounted light.		
+Preview: LLM MKIII	CUP_acc_LLM	LLM MKIII	Weapon mounted light.		
+Used By 
+Preview: Leupold VX-3 4.5-14x50mm	CUP_optic_Leupold_VX3	Leupold VX-3 4.5-14x50mm	Long Range Optical Scope
+Magnification: 4.5x-14x		CUP_srifle_L129A1_HG_Leupold_Bipod
+Preview: Leupold Mk4 CQ/T 1-3x14mm	CUP_optic_LeupoldMk4_CQ_T	Leupold Mk4 CQ/T 1-3x14mm	Close Quarter Rifle Scope		CUP_arifle_M4A1_LeupoldMk4CQT_Laser
+CUP_arifle_Mk16_STD_FG_LeupoldMk4CQT_Laser
+CUP_SCAR_L_STD_Mk4CQT
+Preview: Leupold Mark 4 10x40mm LR/T (Woodland)	CUP_optic_LeupoldMk4_10x40_LRT_Woodland	Leupold Mark 4 10x40mm LR/T (Woodland)	Long Range Scope typically mounted on sniper and marksman rifles
+Magnification: 4.5x–10x		CUP_srifle_M24_ghillie
+CUP_srifle_M24_wdl_LeupoldMk4LRT
+CUP_srifle_M24_wdl_leupoldmk4_camo_bipod_snd
+CUP_arifle_Mk17_STD_woodland_Optic_Laser_bipod_snds
+CUP_M24
+Preview: Leupold Mark 4 10x40mm LR/T (Desert)	CUP_optic_LeupoldMk4_10x40_LRT_Desert	Leupold Mark 4 10x40mm LR/T (Desert)	Long Range Scope typically mounted on sniper and marksman rifles
+Magnification: 4.5x–10x		CUP_srifle_M24_des_LeupoldMk4LRT
+CUP_M24_des_EP1
+Preview: Leupold Mark 4 10x40mm LR/T	CUP_optic_LeupoldMk4	Leupold Mark 4 10x40mm LR/T	Long Range Scope typically mounted on dedicated marksman rifles like the USMC DMR
+Magnification: 4.5x–10x		
+Used By 
+Preview: Leupold Mark 4 8.5-25x50 LR/T (Woodland)	CUP_optic_LeupoldMk4_25x50_LRT_WOODLAND	Leupold Mark 4 8.5-25x50 LR/T (Woodland)	Long Range Scope typically mounted on sniper and marksman rifles
+Magnification: 8.5x–25x		CUP_srifle_M107_Woodland_LeupoldMk4_25x50
+Preview: Leupold Mark 4 8.5-25x50 LR/T (Snow)	CUP_optic_LeupoldMk4_25x50_LRT_SNOW	Leupold Mark 4 8.5-25x50 LR/T (Snow)	Long Range Scope typically mounted on sniper and marksman rifles
+Magnification: 8.5x–25x		
+Preview: Leupold Mark 4 8.5-25x50 LR/T (Desert)	CUP_optic_LeupoldMk4_25x50_LRT_DESERT	Leupold Mark 4 8.5-25x50 LR/T (Desert)	Long Range Scope typically mounted on sniper and marksman rifles
+Magnification: 8.5x–25x		
+Preview: Leupold Mark 4 8.5-25x50 LR/T (Black)	CUP_optic_LeupoldMk4_25x50_LRT	Leupold Mark 4 8.5-25x50 LR/T (Black)	Long Range Scope typically mounted on sniper and marksman rifles
+Magnification: 8.5x–25x		CUP_srifle_M107_LeupoldVX3
+CUP_srifle_M107_LeupoldMk4
+CUP_M107
+Preview: Leupold Mark 4 6.5-20x50mm LR/T	CUP_optic_LeupoldMk4_20x40_LRT	Leupold Mark 4 6.5-20x50mm LR/T	Long Range Scope typically mounted on sniper and marksman rifles
+Magnification: 6.5x–20x		CUP_srifle_M2010_blk_LRT
+CUP_srifle_M2010_ctrg_LRT
+CUP_srifle_M2010_ctrgt_LRT
+CUP_srifle_M2010_hex_LRT
+CUP_srifle_M2010_wdl_LRT
+CUP_srifle_M2010_winter_LRT
+CUP_srifle_M2010_dsrt_LRT
+Preview: Leupold Mark 4 3-9x36mm MR/T	CUP_optic_LeupoldM3LR	Leupold Mark 4 3-9x36mm MR/T	Long Range Scope typically mounted on sniper and marksman rifles
+Magnification: 3x–9x		CUP_srifle_Mk12SPR_LeupoldM3LR
+CUP_srifle_Mk12SPR_LeupoldM3LR_bipod
+CUP_M4SPR
+Preview: Leupold Mark 4 2.5-8x36mm MR/T (Tan)	CUP_optic_LeupoldMk4_MRT_tan	Leupold Mark 4 2.5-8x36mm MR/T (Tan)	Medium to Long-range scope for sniper and marksman rifles
+Magnification: 2.5x-8x		CUP_arifle_M4A1_LeupoldMk4MRT
+CUP_arifle_Mk16_LeupoldMk4MRT
+CUP_arifle_Mk20_LeupoldMk4MRT
+CUP_SCAR_H_LNG_Sniper
+Preview: LCU-PM Laser pointer	CUP_acc_LCU_PM_Laser	LCU-PM Laser pointer	Infrared laser pointer		
+Preview: L115A3 Silencer	CUP_muzzle_snds_AWM	L115A3 Silencer			
+Preview: L85 Silencer	CUP_muzzle_snds_L85	L85 Silencer			
+Preview: KZRZP (SVD 7.62x54R/Woodland)	CUP_muzzle_snds_KZRZP_SVD_woodland	KZRZP (SVD 7.62x54R/Woodland)			CUP_srifle_AFU_SVD_wdl_ghillie_snds
+Preview: KZRZP (SVD 7.62x54R/Desert)	CUP_muzzle_snds_KZRZP_SVD_desert	KZRZP (SVD 7.62x54R/Desert)			
+Preview: KZRZP (SVD 7.62x54R)	CUP_muzzle_snds_KZRZP_SVD	KZRZP (SVD 7.62x54R)			
+Preview: KZRZP (PK 7.62x54mm/Woodland)	CUP_muzzle_snds_KZRZP_PK_woodland	KZRZP (PK 7.62x54mm/Woodland)			
+Preview: KZRZP (PK 7.62x54mm/Desert)	CUP_muzzle_snds_KZRZP_PK_desert	KZRZP (PK 7.62x54mm/Desert)			
+Preview: KZRZP (PK 7.62x54mm)	CUP_muzzle_snds_KZRZP_PK	KZRZP (PK 7.62x54mm)			
+Preview: KZRZP (7.62x39mm/Woodland)	CUP_muzzle_snds_KZRZP_AK762_woodland	KZRZP (7.62x39mm/Woodland)			
+Preview: KZRZP (7.62x39mm/Desert)	CUP_muzzle_snds_KZRZP_AK762_desert	KZRZP (7.62x39mm/Desert)			
+Preview: KZRZP (7.62x39mm)	CUP_muzzle_snds_KZRZP_AK762	KZRZP (7.62x39mm)			
+Preview: KZRZP (5.45x39mm/Woodland)	CUP_muzzle_snds_KZRZP_AK545_woodland	KZRZP (5.45x39mm/Woodland)			
+Preview: KZRZP (5.45x39mm/Desert)	CUP_muzzle_snds_KZRZP_AK545_desert	KZRZP (5.45x39mm/Desert)			CUP_arifle_AK12_arid_1P87_flash_snds
+Preview: KZRZP (5.45x39mm)	CUP_muzzle_snds_KZRZP_AK545	KZRZP (5.45x39mm)			CUP_arifle_AK12_black_flash_1P87_snds
+CUP_arifle_AK12_black_flash_1P871P90_snds
+CUP_arifle_AFU_AK74M_GL_camo_kobra_snds
+CUP_arifle_AFU_AK12_AFG_lush_1P87_snds
+CUP_arifle_AFU_AK74M_camo_ekp_flash_snds
+Preview: Kostey's Photos	CUP_item_Kostey_photos	Kostey's Photos	Kostey's Photos		
+Preview: Kostey's Notebook	CUP_item_Kostey_notebook	Kostey's Notebook	Kostey's Notebook		
+Preview: Kostey's map case	CUP_item_Kostey_map_case	Kostey's map case	Kostey's map case		
+Preview: Kobra Reflex Sight	CUP_optic_Kobra	Kobra Reflex Sight	Close Combat optic		
+Used By 
+Preview: Knights MP5 9mm Suppressor	CUP_muzzle_snds_MP5	Knights MP5 9mm Suppressor			
+Preview: Knight Armaments Offensive Handgun Suppressor	CUP_muzzle_snds_mk23	Knight Armaments Offensive Handgun Suppressor			CUP_hgun_mk23_snds_lam
+Preview: InSight ISM-IR (Tan)	CUP_optic_ISM_PCAP_tan	InSight ISM-IR (Tan)			
+Preview: InSight ISM-IR (OD)	CUP_optic_ISM_PCAP_OD	InSight ISM-IR (OD)			
+Preview: InSight ISM-IR (Green)	CUP_optic_ISM_PCAP_green	InSight ISM-IR (Green)			
+Preview: InSight ISM-IR	CUP_optic_ISM_PCAP	InSight ISM-IR			
+Used By 
+Preview: InSight ISM 1400-A7 (Tan)	CUP_optic_ISM1400A7_tan	InSight ISM 1400-A7 (Tan)			
+Preview: InSight ISM 1400-A7 (OD)	CUP_optic_ISM1400A7_OD	InSight ISM 1400-A7 (OD)			
+Preview: InSight ISM 1400-A7 (Green)	CUP_optic_ISM1400A7_green	InSight ISM 1400-A7 (Green)			
+Preview: InSight ISM 1400-A7	CUP_optic_ISM1400A7	InSight ISM 1400-A7			
+Preview: InSight AMO (Tan)	CUP_optic_AMO_PCAP_tan	InSight AMO (Tan)			
+Preview: InSight AMO (OD)	CUP_optic_AMO_PCAP_OD	InSight AMO (OD)			
+Preview: InSight AMO (Green)	CUP_optic_AMO_PCAP_green	InSight AMO (Green)			
+Preview: InSight AMO	CUP_optic_AMO_PCAP	InSight AMO			
+Used By 
+Preview: HMNVS (Hidden)	CUP_NVG_HMNVS_Hide	HMNVS (Hidden)	Night Vision Goggles		
+Used By 
+Preview: HMNVS	CUP_NVG_HMNVS	HMNVS	Night Vision Goggles		
+Used By 
+Preview: Hensoldt ZO (RDS/OD)	CUP_optic_HensoldtZO_RDS_od	Hensoldt ZO (RDS/OD)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (RDS/Hex)	CUP_optic_HensoldtZO_RDS_hex	Hensoldt ZO (RDS/Hex)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (RDS/Desert)	CUP_optic_HensoldtZO_RDS_desert	Hensoldt ZO (RDS/Desert)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (RDS/Coyote)	CUP_optic_HensoldtZO_RDS_coyote	Hensoldt ZO (RDS/Coyote)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (RDS)	CUP_optic_HensoldtZO_RDS	Hensoldt ZO (RDS)	Combat Optic
+Magnification: 4x		CUP_arifle_G36C_VFG_holo
+Preview: Hensoldt ZO (OD)	CUP_optic_HensoldtZO_od	Hensoldt ZO (OD)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (Low/RDS/OD)	CUP_optic_HensoldtZO_low_RDS_od	Hensoldt ZO (Low/RDS/OD)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (Low/RDS/Hex)	CUP_optic_HensoldtZO_low_RDS_hex	Hensoldt ZO (Low/RDS/Hex)	Combat Optic
+Magnification: 4x		CUP_arifle_G36K_KSK_hex_ZO_las
+Preview: Hensoldt ZO (Low/RDS/Desert)	CUP_optic_HensoldtZO_low_RDS_desert	Hensoldt ZO (Low/RDS/Desert)	Combat Optic
+Magnification: 4x		CUP_arifle_G36K_KSK_des_ZO_las
+Preview: Hensoldt ZO (Low/RDS/Coyote)	CUP_optic_HensoldtZO_low_RDS_coyote	Hensoldt ZO (Low/RDS/Coyote)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (Low/RDS)	CUP_optic_HensoldtZO_low_RDS	Hensoldt ZO (Low/RDS)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (Low/OD)	CUP_optic_HensoldtZO_low_od	Hensoldt ZO (Low/OD)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (Low/Hex)	CUP_optic_HensoldtZO_low_hex	Hensoldt ZO (Low/Hex)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (Low/Desert)	CUP_optic_HensoldtZO_low_desert	Hensoldt ZO (Low/Desert)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (Low/Coyote)	CUP_optic_HensoldtZO_low_coyote	Hensoldt ZO (Low/Coyote)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (Low)	CUP_optic_HensoldtZO_low	Hensoldt ZO (Low)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (Hex)	CUP_optic_HensoldtZO_hex	Hensoldt ZO (Hex)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (Desert)	CUP_optic_HensoldtZO_desert	Hensoldt ZO (Desert)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO (Coyote)	CUP_optic_HensoldtZO_coyote	Hensoldt ZO (Coyote)	Combat Optic
+Magnification: 4x		
+Preview: Hensoldt ZO	CUP_optic_HensoldtZO	Hensoldt ZO	Combat Optic
+Magnification: 4x		
+Preview: Harris 1A2-L Bipod (worn)	CUP_bipod_Harris_1A2_L	Harris 1A2-L Bipod (worn)			
+Used By 
+Preview: Harris 1A2-L Bipod	CUP_bipod_Harris_1A2_L_BLK	Harris 1A2-L Bipod			
+Used By 
+Preview: GPNVG (Winter)	CUP_NVG_GPNVG_winter	GPNVG (Winter)	Night Vision Goggles		
+Preview: GPNVG (Tan)	CUP_NVG_GPNVG_tan	GPNVG (Tan)	Night Vision Goggles		
+Preview: GPNVG (Hidden)	CUP_NVG_GPNVG_Hide	GPNVG (Hidden)	Night Vision Goggles		
+Preview: GPNVG (Green)	CUP_NVG_GPNVG_green	GPNVG (Green)	Night Vision Goggles		
+Preview: GPNVG (Black)	CUP_NVG_GPNVG_black	GPNVG (Black)	Night Vision Goggles		
+Preview: Goshawk TWS (RIS)	CUP_optic_GOSHAWK_RIS	Goshawk TWS (RIS)	Thermal Weapon Sight
+Magnification: 3.6x		
+Preview: Goshawk TWS	CUP_optic_GOSHAWK	Goshawk TWS	Thermal Weapon Sight
+Magnification: 3.6x		CUP_arifle_AKS74_Goshawk
+CUP_AKS_74_GOSHAWK
+Preview: Glock 17 Flashlight/Laser	CUP_acc_Glock17_Flashlight	Glock 17 Flashlight/Laser	Underbarrel Flashlight and laser		CUP_hgun_glock17_blk_flashlight_snds
+CUP_hgun_glock17_tan_flashlight_snds
+CUP_hgun_glock17_flashlight
+CUP_hgun_glock17_flashlight_snds
+CUP_Glock17_EP1
+Preview: G36 Silencer (Woodland)	CUP_muzzle_snds_G36_wood	G36 Silencer (Woodland)			
+Preview: G36 Silencer (Hex)	CUP_muzzle_snds_G36_hex	G36 Silencer (Hex)			CUP_arifle_G36K_KSK_hex_G33_snds_las
+Preview: G36 Silencer (Desert)	CUP_muzzle_snds_G36_desert	G36 Silencer (Desert)			CUP_arifle_G36C_camo_holo_snds
+CUP_arifle_G36K_KSK_des_G33_snds_las
+CUP_G36_C_SD_camo
+Preview: G36 Silencer (Black)	CUP_muzzle_snds_G36_black	G36 Silencer (Black)			CUP_arifle_G36C_holo_snds
+CUP_G36_C_SD_eotech
+Preview: G36 Bipod (Woodland)	CUP_Bipod_G36_wood	G36 Bipod (Woodland)			
+Preview: G36 Bipod (Desert)	CUP_Bipod_G36_desert	G36 Bipod (Desert)			
+Preview: G36 Bipod	CUP_Bipod_G36	G36 Bipod			
+Preview: G36 3.5x Optics sight/Z-Point (Woodland) (3D)	CUP_optic_G36Optics_RDS_wood	G36 3.5x Optics sight/Z-Point (Woodland) (3D)	Carryhandle with integrated 3.5x optics sight and attached red-dot sight		
+Preview: G36 3.5x Optics sight/Z-Point (Woodland) (3D)	CUP_optic_G36Optics_RDS_wood_3D	G36 3.5x Optics sight/Z-Point (Woodland) (3D)	Carryhandle with integrated 3.5x optics sight and attached red-dot sight		
+Preview: G36 3.5x Optics sight/Z-Point (Desert) (3D)	CUP_optic_G36Optics_RDS_desert_3D	G36 3.5x Optics sight/Z-Point (Desert) (3D)	Carryhandle with integrated 3.5x optics sight and attached red-dot sight		
+Preview: G36 3.5x Optics sight/Z-Point (Desert)	CUP_optic_G36Optics_RDS_desert	G36 3.5x Optics sight/Z-Point (Desert)	Carryhandle with integrated 3.5x optics sight and attached red-dot sight		
+Preview: G36 3.5x Optics sight/Z-Point (3D)	CUP_optic_G36Optics_RDS_3D	G36 3.5x Optics sight/Z-Point (3D)	Carryhandle with integrated 3.5x optics sight and attached red-dot sight		
+Preview: G36 3.5x Optics sight/Z-Point	CUP_optic_G36Optics_RDS	G36 3.5x Optics sight/Z-Point	Carryhandle with integrated 3.5x optics sight and attached red-dot sight		
+Preview: G36 3.5x Optics sight/EOTech 552 (Woodland) (3D)	CUP_optic_G36Optics_Holo_wood_3D	G36 3.5x Optics sight/EOTech 552 (Woodland) (3D)	Carryhandle with integrated 3.5x optics sight and attached holosight		
+Preview: G36 3.5x Optics sight/EOTech 552 (Woodland)	CUP_optic_G36Optics_Holo_wood	G36 3.5x Optics sight/EOTech 552 (Woodland)	Carryhandle with integrated 3.5x optics sight and attached holosight		
+Preview: G36 3.5x Optics sight/EOTech 552 (Desert) (3D)	CUP_optic_G36Optics_Holo_desert_3D	G36 3.5x Optics sight/EOTech 552 (Desert) (3D)	Carryhandle with integrated 3.5x optics sight and attached holosight		
+Preview: G36 3.5x Optics sight/EOTech 552 (Desert)	CUP_optic_G36Optics_Holo_desert	G36 3.5x Optics sight/EOTech 552 (Desert)	Carryhandle with integrated 3.5x optics sight and attached holosight		
+Preview: G36 3.5x Optics sight/EOTech 552 (3D)	CUP_optic_G36Optics_Holo_3D	G36 3.5x Optics sight/EOTech 552 (3D)	Carryhandle with integrated 3.5x optics sight and attached holosight		
+Preview: G36 3.5x Optics sight/EOTech 552	CUP_optic_G36Optics_Holo	G36 3.5x Optics sight/EOTech 552	Carryhandle with integrated 3.5x optics sight and attached holosight		
+Preview: G36 3.5x Optics sight (Woodland) (3D)	CUP_optic_G36Optics_wood_3D	G36 3.5x Optics sight (Woodland) (3D)	Carryhandle with integrated 3.5x optics sight		
+Preview: G36 3.5x Optics sight (Woodland)	CUP_optic_G36Optics_wood	G36 3.5x Optics sight (Woodland)	Carryhandle with integrated 3.5x optics sight		CUP_arifle_G36E_wdl
+Preview: G36 3.5x Optics sight (Desert) (3D)	CUP_optic_G36Optics_desert_3D	G36 3.5x Optics sight (Desert) (3D)	Carryhandle with integrated 3.5x optics sight		
+Preview: G36 3.5x Optics sight (Desert)	CUP_optic_G36Optics_desert	G36 3.5x Optics sight (Desert)	Carryhandle with integrated 3.5x optics sight		CUP_arifle_G36E_camo
+Preview: G36 3.5x Optics sight (3D)	CUP_optic_G36Optics_3D	G36 3.5x Optics sight (3D)	Carryhandle with integrated 3.5x optics sight		
+Preview: G36 3.5x Optics sight	CUP_optic_G36Optics	G36 3.5x Optics sight	Carryhandle with integrated 3.5x optics sight		CUP_arifle_G36E
+Preview: G36 3.5x Dual Optics sight (Woodland) (3D)	CUP_optic_G36DualOptics_wood_3D	G36 3.5x Dual Optics sight (Woodland) (3D)	Carryhandle with integrated dual 3.5x optics sight and red-dot sight		
+Preview: G36 3.5x Dual Optics sight (Woodland)	CUP_optic_G36DualOptics_wood	G36 3.5x Dual Optics sight (Woodland)	Carryhandle with integrated dual 3.5x optics sight and red-dot sight		CUP_arifle_G36A_wdl
+CUP_arifle_AG36_wdl
+CUP_arifle_G36K_wdl
+CUP_arifle_G36K_VFG_wdl
+CUP_arifle_G36K_AG36_wdl
+Preview: G36 3.5x Dual Optics sight (Desert) (3D)	CUP_optic_G36DualOptics_desert_3D	G36 3.5x Dual Optics sight (Desert) (3D)	Carryhandle with integrated dual 3.5x optics sight and red-dot sight		
+Preview: G36 3.5x Dual Optics sight (Desert)	CUP_optic_G36DualOptics_desert	G36 3.5x Dual Optics sight (Desert)	Carryhandle with integrated dual 3.5x optics sight and red-dot sight		CUP_arifle_G36A_camo
+CUP_arifle_AG36_camo
+CUP_arifle_G36K_camo
+CUP_arifle_G36K_VFG_camo
+CUP_arifle_G36K_AG36_camo
+CUP_G36A_camo
+CUP_G36K_camo
+Preview: G36 3.5x Dual Optics sight (3D)	CUP_optic_G36DualOptics_3D	G36 3.5x Dual Optics sight (3D)	Carryhandle with integrated dual 3.5x optics sight and red-dot sight		
+Preview: G36 3.5x Dual Optics sight	CUP_optic_G36DualOptics	G36 3.5x Dual Optics sight	Carryhandle with integrated dual 3.5x optics sight and red-dot sight		
+Used By 
+Preview: G36 1.5x Optics sight (Woodland) (3D)	CUP_optic_G36Optics15x_wood_3D	G36 1.5x Optics sight (Woodland) (3D)	Carryhandle with integrated 1.5x optics sight		
+Preview: G36 1.5x Optics sight (Woodland)	CUP_optic_G36Optics15x_wood	G36 1.5x Optics sight (Woodland)	Carryhandle with integrated 1.5x optics sight		
+Preview: G36 1.5x Optics sight (Desert) (3D)	CUP_optic_G36Optics15x_desert_3D	G36 1.5x Optics sight (Desert) (3D)	Carryhandle with integrated 1.5x optics sight		
+Preview: G36 1.5x Optics sight (Desert)	CUP_optic_G36Optics15x_desert	G36 1.5x Optics sight (Desert)	Carryhandle with integrated 1.5x optics sight		
+Preview: G36 1.5x Optics sight (3D)	CUP_optic_G36Optics15x_3D	G36 1.5x Optics sight (3D)	Carryhandle with integrated 1.5x optics sight		
+Preview: G36 1.5x Optics sight	CUP_optic_G36Optics15x	G36 1.5x Optics sight	Carryhandle with integrated 1.5x optics sight		
+Preview: G3SG1 bipod	CUP_bipod_G3SG1	G3SG1 bipod			CUP_arifle_AFU_G3A3_modern_ris_pvs10_bipod
+Preview: G3 bipod (body mount)	CUP_bipod_G3	G3 bipod (body mount)			
+Preview: Flashlight (Woodland)	CUP_acc_Flashlight_wdl	Flashlight (Woodland)	Flashlight attachment
+Provides a bright light in dark areas		CUP_arifle_M4A1_camo_GL_Holo_Flashlight
+CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds
+CUP_M4A1_HWS_GL_camo
+CUP_M4A1_HWS_GL_SD_Camo
+Preview: Flashlight (Desert)	CUP_acc_Flashlight_desert	Flashlight (Desert)	Flashlight attachment
+Provides a bright light in dark areas		CUP_arifle_M4A3_desert_Aim_Flashlight
+CUP_M4A3_CCO_EP1
+Preview: Flashlight (Black)	CUP_acc_Flashlight	Flashlight (Black)	Flashlight attachment
+Provides a bright light in dark areas		
+Used By 
+Preview: Flash hider (Sa vz. 58)	CUP_muzzle_mfsup_flashhider_Sa58	Flash hider (Sa vz. 58)			
+Preview: Flash Hider (PK 7.62x54mm/Tan)	CUP_muzzle_mfsup_Flashhider_PK_Tan	Flash Hider (PK 7.62x54mm/Tan)			
+Preview: Flash Hider (PK 7.62x54mm/OD)	CUP_muzzle_mfsup_Flashhider_PK_OD	Flash Hider (PK 7.62x54mm/OD)			
+Preview: Flash Hider (PK 7.62x54mm/Black)	CUP_muzzle_mfsup_Flashhider_PK_Black	Flash Hider (PK 7.62x54mm/Black)			
+Preview: Flash Hider (7.62x51mm/Tan)	CUP_muzzle_mfsup_Flashhider_762x51_Tan	Flash Hider (7.62x51mm/Tan)			
+Preview: Flash Hider (7.62x51mm/OD)	CUP_muzzle_mfsup_Flashhider_762x51_OD	Flash Hider (7.62x51mm/OD)			
+Preview: Flash Hider (7.62x51mm/Black)	CUP_muzzle_mfsup_Flashhider_762x51_Black	Flash Hider (7.62x51mm/Black)			
+Preview: Flash Hider (7.62x39mm/Tan)	CUP_muzzle_mfsup_Flashhider_762x39_Tan	Flash Hider (7.62x39mm/Tan)			
+Preview: Flash Hider (7.62x39mm/OD)	CUP_muzzle_mfsup_Flashhider_762x39_OD	Flash Hider (7.62x39mm/OD)			
+Preview: Flash Hider (7.62x39mm/Black)	CUP_muzzle_mfsup_Flashhider_762x39_Black	Flash Hider (7.62x39mm/Black)			
+Preview: Flash Hider (5.56x45mm/Tan)	CUP_muzzle_mfsup_Flashhider_556x45_Tan	Flash Hider (5.56x45mm/Tan)			
+Preview: Flash Hider (5.56x45mm/OD)	CUP_muzzle_mfsup_Flashhider_556x45_OD	Flash Hider (5.56x45mm/OD)			
+Preview: Flash Hider (5.56x45mm/Black)	CUP_muzzle_mfsup_Flashhider_556x45_Black	Flash Hider (5.56x45mm/Black)			CUP_arifle_AFU_ACRC_wdl_556_flash_specter_laser
+Preview: Flash Hider (5.45x39mm/Tan)	CUP_muzzle_mfsup_Flashhider_545x39_Tan	Flash Hider (5.45x39mm/Tan)			
+Preview: Flash Hider (5.45x39mm/OD)	CUP_muzzle_mfsup_Flashhider_545x39_OD	Flash Hider (5.45x39mm/OD)			
+Preview: Flash Hider (5.45x39mm/Black)	CUP_muzzle_mfsup_Flashhider_545x39_Black	Flash Hider (5.45x39mm/Black)			
+Preview: Flash hider	CUP_muzzle_mfsup_Flashhider_West_Base	Flash hider			
+Preview: FAMAS 5.56mm Suppressor (Woodland)	CUP_muzzle_snds_FAMAS_Wood	FAMAS 5.56mm Suppressor (Woodland)			CUP_Famas_F1_Rail_Wood_Holo_Laser_Supp
+CUP_Famas_F1_Rail_Wood_Optic_Laser_Supp
+Preview: FAMAS 5.56mm Suppressor (Black)	CUP_muzzle_snds_FAMAS	FAMAS 5.56mm Suppressor (Black)			
+Preview: FAMAS 5.56mm Suppressor (Arid)	CUP_muzzle_snds_FAMAS_Arid	FAMAS 5.56mm Suppressor (Arid)			
+Preview: EOTech 553 + G33 (OD)	CUP_optic_G33_HWS_OD	EOTech 553 + G33 (OD)	Magnifying optics x3
+Tiltable		CUP_Famas_F1_Rail_Wood_Optic_Laser_Supp
+CUP_arifle_G36K_KSK_hex_G33_snds_las
+CUP_arifle_HK416_CQB_Wood_G33_snds_las
+CUP_arifle_HK416_CQB_AG36_Wood_G33_snds_las
+CUP_arifle_M4A1_SOMMOD_RD_green
+CUP_arifle_Mk16_CQC_FG_woodland_Holo_Laser_snds
+CUP_arifle_Mk16_STD_EGLM_woodland_Holo_Laser_snds
+Preview: EOTech 553 + G33 (Desert)	CUP_optic_G33_HWS_TAN	EOTech 553 + G33 (Desert)	Magnifying optics x3
+Tiltable		CUP_arifle_G36K_KSK_des_G33_snds_las
+CUP_arifle_HK416_CQB_Desert_G33_snds_las
+CUP_arifle_HK416_CQB_AG36_Desert_G33_snds_las
+Preview: EOTech 553 + G33 (Coyote)	CUP_optic_G33_HWS_COYOTE	EOTech 553 + G33 (Coyote)	Magnifying optics x3
+Tiltable		
+Preview: EOTech 553 + G33 (Black)	CUP_optic_G33_HWS_BLK	EOTech 553 + G33 (Black)	Magnifying optics x3
+Tiltable		CUP_Famas_F1_Rail_Optic_Laser
+Preview: EOTech 553 (Tan)	CUP_optic_Eotech533	EOTech 553 (Tan)	Holographics CQB Weapon Sight		
+Used By 
+Preview: EOTech 553 (OD)	CUP_optic_Eotech553_OD	EOTech 553 (OD)	Holographics CQB Weapon Sight		CUP_Famas_F1_Rail_Wood_Holo_Laser
+CUP_Famas_F1_Rail_Wood_Holo_Laser_Supp
+CUP_smg_MP7_woodland_Holo_Laser_Snds
+CUP_arifle_Mk17_STD_EGLM_woodland_Laser_Holo
+Preview: EOTech 553 (Gray)	CUP_optic_Eotech533Grey	EOTech 553 (Gray)	Holographics CQB Weapon Sight		CUP_arifle_L85A2_HoloGrey_laser
+CUP_arifle_XM8_Compact_Holo_Flashlight
+CUP_arifle_XM8_Railed_Holo_Laser_snds
+CUP_arifle_AK19_snowtiger_Holo
+CUP_arifle_AK19_snowtiger_Holo_snds
+CUP_m8_compact_pmc
+CUP_m8_holo_sd
+Preview: EOTech 553 (Coyote)	CUP_optic_Eotech553_Coyote	EOTech 553 (Coyote)	Holographics CQB Weapon Sight		CUP_arifle_AK19_AFG_bicolor_Holo_Laser
+CUP_arifle_AK19_AFG_bicolor_Holo_Laser_snds
+Preview: EOTech 553 (Black)	CUP_optic_Eotech553_Black	EOTech 553 (Black)	Holographics CQB Weapon Sight		CUP_Famas_F1_Rail_Holo_Laser
+CUP_smg_MP5SD6_Holo_Light
+CUP_arifle_L85A2_Holo_laser
+CUP_arifle_M4A1_SOMMOD_RD_black
+CUP_smg_MP7_Holo_Laser_Snds
+CUP_BAF_L85A2_RIS_Holo
+Preview: EOTech 551 (Woodland)	CUP_optic_HoloWdl	EOTech 551 (Woodland)	Holographics CQB Weapon Sight		CUP_arifle_M4A1_camo_GL_Holo_Flashlight
+CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds
+CUP_M4A1_HWS_GL_camo
+CUP_M4A1_HWS_GL_SD_Camo
+Preview: EOTech 551 (Desert)	CUP_optic_HoloDesert	EOTech 551 (Desert)	Holographics CQB Weapon Sight		CUP_arifle_G36C_camo_holo_snds
+CUP_arifle_MG36_camo_holo
+CUP_G36_C_SD_camo
+Preview: EOTech 551 (Black)	CUP_optic_HoloBlack	EOTech 551 (Black)	Holographics CQB Weapon Sight		
+Used By 
+Preview: Elcan SpecterOS 4x (RMR Reflex/OD)	CUP_optic_Elcan_reflex_OD	Elcan SpecterOS 4x (RMR Reflex/OD)	Medium-Range scope		
+Preview: Elcan SpecterOS 4x (RMR Reflex/Coyote)	CUP_optic_Elcan_reflex_Coyote	Elcan SpecterOS 4x (RMR Reflex/Coyote)	Medium-Range scope		
+Preview: Elcan SpecterOS 4x (RMR Reflex/Black)	CUP_optic_Elcan_reflex	Elcan SpecterOS 4x (RMR Reflex/Black)	Medium-Range scope		CUP_arifle_L85A2_Elcan_Laser
+CUP_arifle_L85A2_GL_Elcan_Laser
+Preview: Elcan SpecterOS 4x (OD)	CUP_optic_Elcan_OD	Elcan SpecterOS 4x (OD)	Medium-Range scope		
+Preview: Elcan SpecterOS 4x (Coyote)	CUP_optic_Elcan_Coyote	Elcan SpecterOS 4x (Coyote)	Medium-Range scope		
+Preview: Elcan SpecterOS 4x (Black)	CUP_optic_Elcan	Elcan SpecterOS 4x (Black)	Medium-Range scope		CUP_arifle_AK19_tiger_Elcan_Flash
+Preview: Elcan SpecterDR 1x/4x (Tan)	CUP_optic_Elcan_SpecterDR	Elcan SpecterDR 1x/4x (Tan)	Medium-Range scope		CUP_arifle_Mk17_STD_EGL_ElcanSpecter_Laser
+CUP_SCAR_H_STD_EGLM_Spect
+Preview: Elcan SpecterDR 1x/4x (Reflex/Tan)	CUP_optic_Elcan_SpecterDR_RMR	Elcan SpecterDR 1x/4x (Reflex/Tan)	Medium-Range scope		CUP_arifle_Mk16_STD_SFG_Scope
+CUP_arifle_Mk16_STD_EGLM_Specter
+Preview: Elcan SpecterDR 1x/4x (Reflex/OD)	CUP_optic_Elcan_SpecterDR_RMR_od	Elcan SpecterDR 1x/4x (Reflex/OD)	Medium-Range scope		
+Preview: Elcan SpecterDR 1x/4x (Reflex/killFlash/Tan)	CUP_optic_Elcan_SpecterDR_KF_RMR	Elcan SpecterDR 1x/4x (Reflex/killFlash/Tan)	Medium-Range scope		
+Preview: Elcan SpecterDR 1x/4x (Reflex/killFlash/OD)	CUP_optic_Elcan_SpecterDR_KF_RMR_od	Elcan SpecterDR 1x/4x (Reflex/killFlash/OD)	Medium-Range scope		CUP_arifle_Mk16_STD_EGLM_woodland_Elcan_Laser_snds
+Preview: Elcan SpecterDR 1x/4x (Reflex/killFlash/Coyote)	CUP_optic_Elcan_SpecterDR_KF_RMR_coyote	Elcan SpecterDR 1x/4x (Reflex/killFlash/Coyote)	Medium-Range scope		
+Preview: Elcan SpecterDR 1x/4x (Reflex/killFlash/Black)	CUP_optic_Elcan_SpecterDR_KF_RMR_black	Elcan SpecterDR 1x/4x (Reflex/killFlash/Black)	Medium-Range scope		
+Preview: Elcan SpecterDR 1x/4x (Reflex/Coyote)	CUP_optic_Elcan_SpecterDR_RMR_coyote	Elcan SpecterDR 1x/4x (Reflex/Coyote)	Medium-Range scope		
+Preview: Elcan SpecterDR 1x/4x (Reflex/Black)	CUP_optic_Elcan_SpecterDR_RMR_black	Elcan SpecterDR 1x/4x (Reflex/Black)	Medium-Range scope		CUP_arifle_mk18_m203_elcan_laserflash
+CUP_arifle_M4A1_SOMMOD_ELCAN_snds_black
+Preview: Elcan SpecterDR 1x/4x (OD)	CUP_optic_Elcan_SpecterDR_od	Elcan SpecterDR 1x/4x (OD)	Medium-Range scope		
+Preview: Elcan SpecterDR 1x/4x (killFlash/Tan)	CUP_optic_Elcan_SpecterDR_KF	Elcan SpecterDR 1x/4x (killFlash/Tan)	Medium-Range scope		CUP_arifle_M4A1_SOMMOD_ELCAN_snds_tan
+Preview: Elcan SpecterDR 1x/4x (killFlash/OD)	CUP_optic_Elcan_SpecterDR_KF_od	Elcan SpecterDR 1x/4x (killFlash/OD)	Medium-Range scope		CUP_arifle_AFU_ACRC_wdl_556_flash_specter_laser
+Preview: Elcan SpecterDR 1x/4x (killFlash/Coyote)	CUP_optic_Elcan_SpecterDR_KF_coyote	Elcan SpecterDR 1x/4x (killFlash/Coyote)	Medium-Range scope		
+Preview: Elcan SpecterDR 1x/4x (killFlash/Black)	CUP_optic_Elcan_SpecterDR_KF_black	Elcan SpecterDR 1x/4x (killFlash/Black)	Medium-Range scope		
+Preview: Elcan SpecterDR 1x/4x (Coyote)	CUP_optic_Elcan_SpecterDR_coyote	Elcan SpecterDR 1x/4x (Coyote)	Medium-Range scope		
+Preview: Elcan SpecterDR 1x/4x (Black)	CUP_optic_Elcan_SpecterDR_black	Elcan SpecterDR 1x/4x (Black)	Medium-Range scope		
+Preview: Elcan M145	CUP_optic_ElcanM145	Elcan M145	Medium-Range scope		
+Used By 
+Preview: EKP-8-02	CUP_optic_ekp_8_02	EKP-8-02	Close Combat optic		CUP_arifle_AK74_GL_EKP
+CUP_arifle_AK74M_GL_EKP
+CUP_arifle_AK74M_EKP
+CUP_arifle_AFU_AK74M_camo_ekp_flash_snds
+Preview: CZ M3X Pistol Flashlight/Laser	CUP_acc_CZ_M3X	CZ M3X Pistol Flashlight/Laser	Flashlight attachment
+Provides a bright light in dark areas		CUP_hgun_Duty_M3X
+CUP_hgun_Phantom_Flashlight
+CUP_hgun_Phantom_Flashlight_snds
+CUP_CZ_75_P_07_DUTY
+CUP_CZ_75_SP_01_PHANTOM
+CUP_CZ_75_SP_01_PHANTOM_SD
+Preview: CWS (RDS)	CUP_optic_CWS_NV_RDS	CWS (RDS)	Long Range Night Vision Scope
+Magnification: 4x		
+Preview: CWS	CUP_optic_CWS_NV	CWS	Long Range Night Vision Scope
+Magnification: 4x		
+Preview: CSA Muzzle brake (Woodland)	CUP_muzzle_mfsup_CSA_woodland	CSA Muzzle brake (Woodland)			
+Preview: CSA Muzzle brake (Desert)	CUP_muzzle_mfsup_CSA_desert	CSA Muzzle brake (Desert)			
+Preview: CSA Muzzle brake	CUP_muzzle_mfsup_CSA	CSA Muzzle brake			
+Preview: Cobalt File	CUP_item_Cobalt_File	Cobalt File	Cobalt File		
+Preview: CDF Dogtags	CUP_item_CDF_dogtags	CDF Dogtags	CDF Dogtags		
+Preview: Bullseye	CUP_decal_BallisticShield_Bullseye	Bullseye			
+Preview: Bipod FAL	CUP_bipod_FNFAL	Bipod FAL			CUP_arifle_Steyr_Stg58
+CUP_arifle_Steyr_Stg58_railed
+CUP_arifle_Gewehr1
+CUP_arifle_Gewehr1_railed
+Preview: Bipod (Sa vz. 58)	CUP_bipod_Sa58	Bipod (Sa vz. 58)			
+Preview: BFA	CUP_acc_bfa	BFA			
+Preview: Barska AC11704 Reflex Sight (Tan)	CUP_optic_AC11704_Tan	Barska AC11704 Reflex Sight (Tan)	Open panoramic Red Dot sight
+Magnification: 1x		
+Preview: Barska AC11704 Reflex Sight (OD)	CUP_optic_AC11704_OD	Barska AC11704 Reflex Sight (OD)	Open panoramic Red Dot sight
+Magnification: 1x		
+Preview: Barska AC11704 Reflex Sight (Jungle)	CUP_optic_AC11704_Jungle	Barska AC11704 Reflex Sight (Jungle)	Open panoramic Red Dot sight
+Magnification: 1x		
+Preview: Barska AC11704 Reflex Sight (Coyote)	CUP_optic_AC11704_Coyote	Barska AC11704 Reflex Sight (Coyote)	Open panoramic Red Dot sight
+Magnification: 1x		
+Preview: Barska AC11704 Reflex Sight (Black)	CUP_optic_AC11704_Black	Barska AC11704 Reflex Sight (Black)	Open panoramic Red Dot sight
+Magnification: 1x		
+Preview: AWS	CUP_optic_CWS	AWS	Advanced Electronic Weapon Sight		CUP_arifle_L85A2_CWS_Laser
+CUP_BAF_L85A2_RIS_CWS
+Preview: AN/PVS14 (Hidden)	CUP_NVG_PVS14_Hide	AN/PVS14 (Hidden)	Night Vision Goggles		
+Used By 
+Preview: AN/PVS14	CUP_NVG_PVS14	AN/PVS14	Night Vision Goggles		
+Used By 
+Preview: AN/PVS-15 (Winter)	CUP_NVG_PVS15_winter	AN/PVS-15 (Winter)	Night Vision Goggles		
+Preview: AN/PVS-15 (Tan)	CUP_NVG_PVS15_tan	AN/PVS-15 (Tan)	Night Vision Goggles		
+Preview: AN/PVS-15 (Hidden)	CUP_NVG_PVS15_Hide	AN/PVS-15 (Hidden)	Night Vision Goggles		
+Used By 
+Preview: AN/PVS-15 (Green)	CUP_NVG_PVS15_green	AN/PVS-15 (Green)	Night Vision Goggles		
+Preview: AN/PVS-15 (Black)	CUP_NVG_PVS15_black	AN/PVS-15 (Black)	Night Vision Goggles		
+Used By 
+Preview: AN/PVS-10 NVS (OD)	CUP_optic_AN_PVS_10_od	AN/PVS-10 NVS (OD)	Night Vision Scope		
+Preview: AN/PVS-10 NVS (Black)	CUP_optic_AN_PVS_10_black	AN/PVS-10 NVS (Black)	Night Vision Scope		CUP_arifle_AFU_G3A3_modern_ris_pvs10_bipod
+Preview: AN/PVS-10 NVS	CUP_optic_AN_PVS_10	AN/PVS-10 NVS	Night Vision Scope		CUP_srifle_M110_ANPVS10
+CUP_M110_NVG_EP1
+Preview: AN/PVS-7 (Hidden)	CUP_NVG_PVS7_Hide	AN/PVS-7 (Hidden)	Night Vision Goggles		
+Used By 
+Preview: AN/PVS-7	CUP_NVG_PVS7	AN/PVS-7	Night Vision Goggles		
+Used By 
+Preview: AN/PVS-4 NVS (M16)	CUP_optic_AN_PVS_4_M16	AN/PVS-4 NVS (M16)	Long Range Night Vision Scope
+Magnification: 3.6x		
+Preview: AN/PVS-4 NVS (M14)	CUP_optic_AN_PVS_4_M14	AN/PVS-4 NVS (M14)	Long Range Night Vision Scope
+Magnification: 3.6x		
+Preview: AN/PVS-4 NVS	CUP_optic_AN_PVS_4	AN/PVS-4 NVS	Long Range Night Vision Scope
+Magnification: 3.6x		CUP_arifle_FNFAL_ANPVS4
+CUP_FN_FAL_ANPVS4
+Preview: AN/PEQ-15 Laser + Flashlight (Top/Tan)	CUP_acc_ANPEQ_15_Top_Flashlight_Tan_L	AN/PEQ-15 Laser + Flashlight (Top/Tan)	Infrared laser pointer		CUP_arifle_mk18_tan_holo_laserflash
+CUP_arifle_mk18_m203_tan_holo_laserflash
+CUP_arifle_M4A1_SOMMOD_ELCAN_snds_tan
+CUP_arifle_AFU_Mk16_STD_EGLM_rd_flash_snds
+Preview: AN/PEQ-15 Laser + Flashlight (Top/OD)	CUP_acc_ANPEQ_15_Top_Flashlight_OD_L	AN/PEQ-15 Laser + Flashlight (Top/OD)	Infrared laser pointer		CUP_arifle_M4A1_SOMMOD_ELCAN_snds_green
+CUP_arifle_M4A1_SOMMOD_RD_green
+CUP_arifle_Mk17_STD_EGLM_woodland_Laser_Holo
+Preview: AN/PEQ-15 Laser + Flashlight (Top/Black)	CUP_acc_ANPEQ_15_Top_Flashlight_Black_L	AN/PEQ-15 Laser + Flashlight (Top/Black)	Infrared laser pointer		CUP_arifle_mk18_m203_elcan_laserflash
+CUP_arifle_M4A1_SOMMOD_ELCAN_snds_black
+Preview: AN/PEQ-15 Laser + Flashlight (Tan)	CUP_acc_ANPEQ_15_Flashlight_Tan_L	AN/PEQ-15 Laser + Flashlight (Tan)	Infrared laser pointer		CUP_arifle_M4A1_SOMMOD_ACOG_snds_tan
+Preview: AN/PEQ-15 Laser + Flashlight (OD)	CUP_acc_ANPEQ_15_Flashlight_OD_L	AN/PEQ-15 Laser + Flashlight (OD)	Infrared laser pointer		
+Preview: AN/PEQ-15 Laser + Flashlight (Black)	CUP_acc_ANPEQ_15_Flashlight_Black_L	AN/PEQ-15 Laser + Flashlight (Black)	Infrared laser pointer		CUP_arifle_AFU_ACR_blk_556_rd_snds
+Preview: AN/PEQ-15 Laser (Top/Tan)	CUP_acc_ANPEQ_15_Tan_Top	AN/PEQ-15 Laser (Top/Tan)	Infrared laser pointer		
+Preview: AN/PEQ-15 Laser (Top/Black)	CUP_acc_ANPEQ_15_Black_Top	AN/PEQ-15 Laser (Top/Black)	Infrared laser pointer		CUP_arifle_M4A1_standard_black_ACOG_Laser
+CUP_arifle_M4A1_standard_black_ACOG_Laser_snds
+Preview: AN/PEQ-15 Laser (Tan)	CUP_acc_ANPEQ_15	AN/PEQ-15 Laser (Tan)	Infrared laser pointer		
+Used By 
+Preview: AN/PEQ-15 Laser (OD/Top)	CUP_acc_ANPEQ_15_OD_Top	AN/PEQ-15 Laser (OD/Top)	Infrared laser pointer		
+Preview: AN/PEQ-15 Laser (OD)	CUP_acc_ANPEQ_15_OD	AN/PEQ-15 Laser (OD)	Infrared laser pointer		
+Used By 
+Preview: AN/PEQ-15 Laser (Black)	CUP_acc_ANPEQ_15_Black	AN/PEQ-15 Laser (Black)	Infrared laser pointer		
+Used By 
+Preview: AN/PEQ-2 Laser + Flashlight (Top/OD)	CUP_acc_ANPEQ_2_Flashlight_OD_L	AN/PEQ-2 Laser + Flashlight (Top/OD)	Infrared laser pointer		CUP_arifle_HK416_CQB_M203_Wood_flash_aim_snds
+Preview: AN/PEQ-2 Laser + Flashlight (Top/Coyote)	CUP_acc_ANPEQ_2_Flashlight_Coyote_L	AN/PEQ-2 Laser + Flashlight (Top/Coyote)	Infrared laser pointer		
+Preview: AN/PEQ-2 Laser + Flashlight (Top/Black)	CUP_acc_ANPEQ_2_Flashlight_Black_L	AN/PEQ-2 Laser + Flashlight (Top/Black)	Infrared laser pointer		CUP_arifle_M4A1_SOMMOD_RD_black
+Preview: AN/PEQ-2 Laser (Top/OD)	CUP_acc_ANPEQ_2_OD_Top	AN/PEQ-2 Laser (Top/OD)	Infrared laser pointer		
+Preview: AN/PEQ-2 Laser (Top/Coyote)	CUP_acc_ANPEQ_2_Coyote_Top	AN/PEQ-2 Laser (Top/Coyote)	Infrared laser pointer		
+Preview: AN/PEQ-2 Laser (Top/Black)	CUP_acc_ANPEQ_2_Black_Top	AN/PEQ-2 Laser (Top/Black)	Infrared laser pointer		CUP_arifle_M4A1_ACOG_Laser
+CUP_arifle_M4A3_ACOG_Laser
+CUP_arifle_M4A1_CCO_Laser
+CUP_arifle_M4A3_CCO_Laser
+Preview: AN/PEQ-2 Laser (OD)	CUP_acc_ANPEQ_2_camo	AN/PEQ-2 Laser (OD)	Infrared laser pointer		CUP_Famas_F1_Rail_Wood_Holo_Laser
+CUP_Famas_F1_Rail_Wood_Holo_Laser_Supp
+CUP_Famas_F1_Rail_Wood_Optic_Laser_Supp
+CUP_lmg_Mk48_wdl_Aim_Laser
+CUP_Mk_48
+Preview: AN/PEQ-2 Laser (Coyote)	CUP_acc_ANPEQ_2_desert	AN/PEQ-2 Laser (Coyote)	Infrared laser pointer		
+Used By 
+Preview: AN/PEQ-2 Laser (Black)	CUP_acc_ANPEQ_2_grey	AN/PEQ-2 Laser (Black)	Infrared laser pointer		
+Used By 
+Preview: AN/PEQ-1 SOFLAM	CUP_SOFLAM	AN/PEQ-1 SOFLAM	AN/PEQ-1 Special Operation Forces Laser Acquisition Marker (SOFLAM)	Designator Batteries	
+Used By 
+Preview: AN/PAS 13C2 HTWS	CUP_optic_AN_PAS_13c2	AN/PAS 13C2 HTWS	Long Range Thermal Weapon Sight		
+Used By 
+Preview: AN/PAS 13C1 TWS	CUP_optic_AN_PAS_13c1	AN/PAS 13C1 TWS	Midrange Thermal Weapon Sight		
+Used By 
+Preview: Aimpoint Micro T-1 + AimM (OD)	CUP_optic_AIMM_MICROT1_OD	Aimpoint Micro T-1 + AimM (OD)	Magnifying optics x3
+Tiltable		
+Preview: Aimpoint Micro T-1 + AimM (Coyote)	CUP_optic_AIMM_MICROT1_TAN	Aimpoint Micro T-1 + AimM (Coyote)	Magnifying optics x3
+Tiltable		
+Preview: Aimpoint Micro T-1 + AimM (Black)	CUP_optic_AIMM_MICROT1_BLK	Aimpoint Micro T-1 + AimM (Black)	Magnifying optics x3
+Tiltable		
+Preview: Aimpoint Micro T-1 (OD)	CUP_optic_MicroT1_OD	Aimpoint Micro T-1 (OD)	Short-Range Collimator Weapon Sight		CUP_arifle_Mk16_CQC_AFG_woodland_T1_Laser_snds
+Preview: Aimpoint Micro T-1 (Low/OD)	CUP_optic_MicroT1_low_OD	Aimpoint Micro T-1 (Low/OD)	Short-Range Collimator Weapon Sight		CUP_arifle_AFU_G36C_hex_llm_micro
+Preview: Aimpoint Micro T-1 (Low/Coyote)	CUP_optic_MicroT1_low_coyote	Aimpoint Micro T-1 (Low/Coyote)	Short-Range Collimator Weapon Sight		
+Preview: Aimpoint Micro T-1 (Low)	CUP_optic_MicroT1_low	Aimpoint Micro T-1 (Low)	Short-Range Collimator Weapon Sight		
+Preview: Aimpoint Micro T-1 (Coyote)	CUP_optic_MicroT1_coyote	Aimpoint Micro T-1 (Coyote)	Short-Range Collimator Weapon Sight		
+Preview: Aimpoint Micro T-1	CUP_optic_MicroT1	Aimpoint Micro T-1	Short-Range Collimator Weapon Sight		
+Preview: Aimpoint CompM4 + AimM (Black)	CUP_optic_AIMM_COMPM4_BLK	Aimpoint CompM4 + AimM (Black)	Magnifying optics x3
+Tiltable		
+Preview: Aimpoint CompM4 (Black)	CUP_optic_CompM4	Aimpoint CompM4 (Black)	Short-Range Collimator Weapon Sight		
+Used By 
+Preview: Aimpoint 5000	CUP_optic_Aimpoint_5000	Aimpoint 5000	Short-Range Collimator Weapon Sight		
+Preview: 1PN138 (Hidden)	CUP_NVG_1PN138_Hide	1PN138 (Hidden)	Night Vision Goggles		
+Used By 
+Preview: 1PN138	CUP_NVG_1PN138	1PN138	Night Vision Goggles		
+Used By 
+Preview: 1P87 w/1P90	CUP_optic_1P87_1P90_BLK	1P87 w/1P90	Magnified Combat Optic		CUP_arifle_AK12_black_1P901P87
+CUP_arifle_AK12_black_flash_1P871P90_snds
+CUP_arifle_AK12_GP34_black_1P871P90
+Preview: 1P87 (Woodland)	CUP_optic_1P87_RIS_woodland	1P87 (Woodland)	Close Combat optic		CUP_arifle_AFU_AK12_AFG_lush_1P87_snds
+Preview: 1P87 (Desert)	CUP_optic_1P87_RIS_desert	1P87 (Desert)	Close Combat optic		CUP_arifle_AK12_arid_1P87_flash
+CUP_arifle_AK12_arid_1P87_flash_snds
+CUP_arifle_AK12_GP34_arid_flash_1P87
+Preview: 1P87	CUP_optic_1P87_RIS	1P87	Close Combat optic		CUP_arifle_AK12_black_flash_1P87
+CUP_arifle_AK12_black_flash_1P87_snds
+CUP_arifle_AK12_black_1P87
+Preview: 1P63	CUP_optic_1p63	1P63	Close Combat Optics
+Reticle is illuminated by environmental light and may fade inside buildings.
+Use filter modes to adjust reticle visibility.

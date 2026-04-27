@@ -1,0 +1,43 @@
+private _players = ["player1", "player2", "player3", "player4"]; 
+{ 
+    private _player = missionNamespace getVariable [_x, objNull]; 
+    if (currentWeapon _player != "") then { 
+        [_player] joinSilent createGroup east; 
+        _player sideChat "You have switched to the Opfor side"; 
+    } else { 
+        [_player] joinSilent createGroup civilian; 
+        _player sideChat "You have switched to the civilian side"; 
+    }; 
+} forEach _players; //Radio Trigger
+
+
+private _lastSwitchTime = time;
+private _stop = [];
+while {true} do {
+    private _players = ["player1", "player2", "player3", "player4"];
+    {
+        private _player = missionNamespace getVariable [_x, objNull];
+        if !(_x in _stop) then {
+            private _currentSide = side _player;
+            if (_currentSide != west) then {
+                if ((primaryWeapon _player != "") || (handgunWeapon _player != "") || (secondaryWeapon _player != "")) then {
+                    if (_currentSide != east) then {
+                        [_player] joinSilent createGroup east;
+                        _player sideChat "You have switched to the Opfor side";
+                    };
+                } else {
+                    if (time - _lastSwitchTime > 60) then {
+                        if (_currentSide != civilian) then {
+                            [_player] joinSilent createGroup civilian;
+                            _player sideChat "You have switched to the Civilian side";
+                            _lastSwitchTime = time;
+                        };
+                    };
+                };
+            } else {
+                _stop pushBack _x;
+            };
+        };
+    } forEach _players;
+    sleep 10;
+}; Main Trigger

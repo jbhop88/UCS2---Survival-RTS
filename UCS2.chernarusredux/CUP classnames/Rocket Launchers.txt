@@ -1,0 +1,95 @@
+CUP Personal Weapons: Tertiary
+Preview	Class Name	Display Name	Description	Magazines
+Preview: APILAS	CUP_launch_APILAS	APILAS	Anti-Tank Missile Launcher
+Unguided	CBA_FakeLauncherMagazine
+Preview: M136 Launcher	CUP_launch_M136	M136 Launcher	Anti-tank missile launcher
+Unguided	CBA_FakeLauncherMagazine
+Preview: M47 Dragon	CUP_launch_M47	M47 Dragon	Anti-tank missile launcher
+Guided	M47 Missile
+Preview: MAAWS	CUP_launch_MAAWS	MAAWS	Multi-role launcher
+Unguided	FFV551 (HEAT) Round
+FFV502 (HEDP) Round
+MAAWS HE 44 Round
+MAAWS HEAT 55 Round
+MAAWS HEAT 75 Round
+Preview: MAAWS	CUP_launch_MAAWS_Scope	MAAWS	Multi-role launcher
+Unguided	FFV551 (HEAT) Round
+FFV502 (HEDP) Round
+MAAWS HE 44 Round
+MAAWS HEAT 55 Round
+MAAWS HEAT 75 Round
+Preview: FIM-92F Stinger	CUP_launch_FIM92Stinger	FIM-92F Stinger	Surface-to-air missile launcher
+Guided	CBA_FakeLauncherMagazine
+Preview: Strela-2 9K32	CUP_launch_9K32Strela	Strela-2 9K32	Surface-to-air missile launcher
+Guided	CBA_FakeLauncherMagazine
+Preview: Igla 9K38	CUP_launch_Igla	Igla 9K38	Surface-to-air missile launcher
+Guided	CBA_FakeLauncherMagazine
+Preview: FGM-148 Javelin	CUP_launch_Javelin	FGM-148 Javelin	Anti-tank missile launcher
+Guided	FGM-148 Javelin Missile
+Preview: M72A6	CUP_launch_M72A6	M72A6	Anti-tank missile launcher
+Unguided	CBA_FakeLauncherMagazine
+Preview: M72A6 (Special)	CUP_launch_M72A6_Special	M72A6 (Special)	Anti-tank missile launcher
+Unguided	CBA_FakeLauncherMagazine
+Preview: Metis AT-13	CUP_launch_Metis	Metis AT-13	Anti-tank missile launcher	Metis-M 9K115-2
+9M135 HE Missile
+9M135 HEAT Missile
+Preview: NLAW	CUP_launch_NLAW	NLAW	Anti-tank missile launcher
+Guided	CBA_FakeLauncherMagazine
+Preview: Panzerfaust 3 (DM22)	CUP_launch_PzF3	Panzerfaust 3 (DM22)	Anti-tank launcher
+Unguided	CBA_FakeLauncherMagazine
+Preview: Bunkerfaust 3 (DM32)	CUP_launch_BF3	Bunkerfaust 3 (DM32)	Anti-tank launcher
+Unguided	CBA_FakeLauncherMagazine
+Preview: Panzerfaust 3 (DM12A1)	CUP_launch_HCPF3	Panzerfaust 3 (DM12A1)	Anti-tank launcher
+Unguided	CBA_FakeLauncherMagazine
+Preview: RPG18	CUP_launch_RPG18	RPG18	Anti-tank missile launcher
+Unguided	CBA_FakeLauncherMagazine
+Preview: RPG-26	CUP_launch_RPG26	RPG-26	Anti-tank missile launcher
+Unguided	CBA_FakeLauncherMagazine
+Preview: RShG-2	CUP_launch_RShG2	RShG-2	Anti-tank missile launcher
+Unguided	CBA_FakeLauncherMagazine
+Preview: RPG-7V2	CUP_launch_RPG7V	RPG-7V2	Rocket-propelled grenade	OG-7V (Frag) Rocket
+PG-7V (HEAT) Rocket
+PG-7VL (HEAT) Rocket
+PG-7VM (HEAT) Rocket
+PG-7VR (T-HEAT) Rocket
+TBG-7V (Thermobaric) Rocket
+Preview: RPG-7V2	CUP_launch_RPG7V_PGO7V	RPG-7V2	Rocket-propelled grenade	OG-7V (Frag) Rocket
+PG-7V (HEAT) Rocket
+PG-7VL (HEAT) Rocket
+PG-7VM (HEAT) Rocket
+PG-7VR (T-HEAT) Rocket
+TBG-7V (Thermobaric) Rocket
+Preview: RPG-7V2	CUP_launch_RPG7V_PGO7V2	RPG-7V2	Rocket-propelled grenade	OG-7V (Frag) Rocket
+PG-7V (HEAT) Rocket
+PG-7VL (HEAT) Rocket
+PG-7VM (HEAT) Rocket
+PG-7VR (T-HEAT) Rocket
+TBG-7V (Thermobaric) Rocket
+Preview: RPG-7V2	CUP_launch_RPG7V_PGO7V3	RPG-7V2	Rocket-propelled grenade	OG-7V (Frag) Rocket
+PG-7V (HEAT) Rocket
+PG-7VL (HEAT) Rocket
+PG-7VM (HEAT) Rocket
+PG-7VR (T-HEAT) Rocket
+TBG-7V (Thermobaric) Rocket
+Preview: RPG-7V2	CUP_launch_RPG7V_NSPU	RPG-7V2	Rocket-propelled grenade	OG-7V (Frag) Rocket
+PG-7V (HEAT) Rocket
+PG-7VL (HEAT) Rocket
+PG-7VM (HEAT) Rocket
+PG-7VR (T-HEAT) Rocket
+TBG-7V (Thermobaric) Rocket
+Preview: Mk153 Mod 0 SMAW	CUP_launch_Mk153Mod0	Mk153 Mod 0 SMAW	Multipurpose missile launcher
+Unguided	Mk 6 Mod 0 (HEAA) Rocket
+Mk 3 Mod 0 (HEDP) Rocket
+Mk 80 Mod 0 (NE) Rocket
+Preview: Mk153 Mod 0 SMAW (Black)	CUP_launch_Mk153Mod0_blk	Mk153 Mod 0 SMAW (Black)	Multipurpose missile launcher
+Unguided	Mk 6 Mod 0 (HEAA) Rocket
+Mk 3 Mod 0 (HEDP) Rocket
+Mk 80 Mod 0 (NE) Rocket
+Preview: Mk153 Mod 0 SMAW	CUP_launch_Mk153Mod0_SMAWOptics	Mk153 Mod 0 SMAW	Multipurpose missile launcher
+Unguided	Mk 6 Mod 0 (HEAA) Rocket
+Mk 3 Mod 0 (HEDP) Rocket
+Mk 80 Mod 0 (NE) Rocket
+Preview: Mk153 Mod 0 SMAW (Black)	CUP_launch_Mk153Mod0_blk_SMAWOptics	Mk153 Mod 0 SMAW (Black)	Multipurpose missile launcher
+Unguided	Mk 6 Mod 0 (HEAA) Rocket
+Mk 3 Mod 0 (HEDP) Rocket
+Mk 80 Mod 0 (NE) Rocket
