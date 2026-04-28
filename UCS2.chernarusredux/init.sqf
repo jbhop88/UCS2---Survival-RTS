@@ -1,17 +1,18 @@
-[] execVM "airdropLoop.sqf";
-
-if (hasInterface) then {
-    player addEventHandler ["Respawn", {
-        params ["_unit", "_corpse"];
-        _unit enableStamina true;
-    }];
-
-    // In case it's disabled at mission start
-    player enableStamina true;
+if (isServer) then {
+    [] execVM "airdropLoop.sqf";
+    [] execVM "rtsPerfManager.sqf";
 };
 
 if (hasInterface) then {
     [] spawn {
+        waitUntil { !isNull player };
+
+        player enableStamina true;
+        player addEventHandler ["Respawn", {
+            params ["_unit"];
+            _unit enableStamina true;
+        }];
+
         while {true} do {
             if (!isStaminaEnabled player) then {
                 player enableStamina true;
@@ -26,56 +27,67 @@ if (hasInterface) then {
 // Melee damage handler
 if (hasInterface) then {
     [] spawn {
-        private _meleeGestures = [
-            "WBK_MeleeAttack1", "WBK_MeleeAttack2",
-            "WBK_Heavy_1", "WBK_Heavy_2", "WBK_Heavy_3",
-            "WBK_FISTS_ATTACK_1_actions", "WBK_FISTS_ATTACK_2_actions",
-            "WBK_FISTS_ATTACK_2_moveL_actions", "WBK_FISTS_ATTACK_2_moveF_actions",
-            "WBK_FISTS_ATTACK_3_actions",
-            "fp_onehanded_swing_1", "fp_onehanded_swing_2", "fp_onehanded_swing_3", "fp_onehanded_swing_4",
-            "fp_outofstamina_onehanded_1", "fp_outofstamina_onehanded",
-            "fp_onehanded_kick",
-            "fp_kulak_swing_1", "fp_kulak_swing_2", "fp_kulak_swing_3", "fp_kulak_swing_4"
+        waitUntil { !isNull player };
+
+        private _meleeGestures = createHashMapFromArray [
+            ["WBK_MeleeAttack1", true], ["WBK_MeleeAttack2", true],
+            ["WBK_Heavy_1", true], ["WBK_Heavy_2", true], ["WBK_Heavy_3", true],
+            ["WBK_FISTS_ATTACK_1_actions", true], ["WBK_FISTS_ATTACK_2_actions", true],
+            ["WBK_FISTS_ATTACK_2_moveL_actions", true], ["WBK_FISTS_ATTACK_2_moveF_actions", true],
+            ["WBK_FISTS_ATTACK_3_actions", true],
+            ["fp_onehanded_swing_1", true], ["fp_onehanded_swing_2", true], ["fp_onehanded_swing_3", true], ["fp_onehanded_swing_4", true],
+            ["fp_outofstamina_onehanded_1", true], ["fp_outofstamina_onehanded", true],
+            ["fp_onehanded_kick", true],
+            ["fp_kulak_swing_1", true], ["fp_kulak_swing_2", true], ["fp_kulak_swing_3", true], ["fp_kulak_swing_4", true]
         ];
 
-        private _meleeWeapons = [
-            "WBK_Knife","WBK_Machete","WBK_Axe","WBK_Sledgehammer","WBK_BrassKnuckles",
-            "WBK_brush_axe","WBK_craftedAxe","WBK_Katana","WBK_pipeStyledSword",
-            "WBK_SmallHammer","WBK_survival_weapon_1","WBK_survival_weapon_2",
-            "WBK_survival_weapon_3","WBK_survival_weapon_3_r","WBK_survival_weapon_4",
-            "WBK_survival_weapon_4_r","WBK_ww1_Club","Weap_melee_knife","WBK_FISTS","Rod",
-            "Bat_Clear", "Bat_Spike"
+        private _meleeWeapons = createHashMapFromArray [
+            ["WBK_Knife", true], ["WBK_Machete", true], ["WBK_Axe", true], ["WBK_Sledgehammer", true], ["WBK_BrassKnuckles", true],
+            ["WBK_brush_axe", true], ["WBK_craftedAxe", true], ["WBK_Katana", true], ["WBK_pipeStyledSword", true],
+            ["WBK_SmallHammer", true], ["WBK_survival_weapon_1", true], ["WBK_survival_weapon_2", true],
+            ["WBK_survival_weapon_3", true], ["WBK_survival_weapon_3_r", true], ["WBK_survival_weapon_4", true],
+            ["WBK_survival_weapon_4_r", true], ["WBK_ww1_Club", true], ["Weap_melee_knife", true], ["WBK_FISTS", true], ["Rod", true],
+            ["Bat_Clear", true], ["Bat_Spike", true]
+        ];
+
+        private _zombieTypes = createHashMapFromArray [
+            ["zombie_bolter", true], ["zombie_runner", true], ["zombie_walker", true]
         ];
 
         private _lastGesture = "";
+        private _lastHitTime = -10;
 
         while {true} do {
             private _gesture = gestureState player;
-            private _weapon = currentWeapon player;
 
             if (_gesture != _lastGesture) then {
                 _lastGesture = _gesture;
 
-                if (_gesture in _meleeGestures && (_weapon in _meleeWeapons || _weapon == "")) then {
-                    private _targets = player nearEntities ["CAManBase", 2];
-                    {
-                        if (
-                            alive _x &&
-                            (_x getVariable ["isZombie", false] || {typeOf _x in ["zombie_bolter", "zombie_runner", "zombie_walker"]})
-                        ) then {
-                            _x setVariable ["isZombie", true, true];
-                            _x setDamage ((damage _x) + 0.5);
+                if (_meleeGestures getOrDefault [_gesture, false]) then {
+                    private _weapon = currentWeapon player;
+                    if ((_weapon isEqualTo "") || {_meleeWeapons getOrDefault [_weapon, false]}) then {
+                        if ((diag_tickTime - _lastHitTime) >= 0.25) then {
+                            _lastHitTime = diag_tickTime;
+                            {
+                                if (
+                                    alive _x &&
+                                    ((_x getVariable ["isZombie", false]) || {_zombieTypes getOrDefault [typeOf _x, false]})
+                                ) then {
+                                    _x setDamage ((damage _x) + 0.5);
+                                };
+                            } forEach (player nearEntities ["CAManBase", 2]);
                         };
-                    } forEach _targets;
+                    };
                 };
             };
 
-            sleep 0.3;
+            sleep 0.15;
         };
     };
 };
 
 
+if (isServer) then {
 _idapCrate = createVehicle ["C_IDAP_CargoNet_01_supplies_F", [13695.6,11103.9,0], [], 0, "NONE"];
 _idapCrate addMagazineCargo ["VA_Bloodbag", 40];
 _idapCrate addMagazineCargo ["VA_SurgeryKit", 40];
@@ -316,60 +328,66 @@ _fullCrate addMagazineCargo ["VAMR_RoundsMedCal", 1];
 _fullCrate addMagazineCargo ["VAMR_RoundsBigCal", 1];
 _fullCrate addMagazineCargo ["VASG_muzzle", 1];
 _fullCrate addMagazineCargo ["VA_Flashlight", 1];
-
-GOM_fnc_actionConditionRecruit = {
-    params ["_this", "_target"];
-    
-    (_target isEqualTo _this 
-    && {_target isEqualTo vehicle _target} 
-    && {cursorObject != objNull} 
-    && {cursorObject isKindOf "CAManBase"}
-    && {alive cursorObject} 
-    && {side cursorObject in ([side _this] call BIS_fnc_friendlySides)} 
-    && {_target distance cursorObject <= 15})
 };
 
-player addAction [
-    "Recruit",
-    {[cursorObject] join group player;},
-    [],
-    0,
-    true,
-    true,
-    "",
-    "[_this,_target] call GOM_fnc_actionConditionRecruit"
-];
+if (hasInterface) then {
+    [] spawn {
+        waitUntil { !isNull player };
 
-private _lastSwitchTime = time;
-private _stop = [];
-while {true} do {
-    private _players = ["player1", "player2", "player3", "player4", "player5", "player6", "player7", "player8", "player9", "player10", "player11", "player12", "player13", "player14", "player15", "player16", "player17", "player18"];
-    {
-        private _player = missionNamespace getVariable [_x, objNull];
-        if (!isNull _player) then {
-            if !(_x in _stop) then {
-                private _currentSide = side _player;
-                if (_currentSide != west) then {
-                    if ((primaryWeapon _player != "") || (handgunWeapon _player != "") || (secondaryWeapon _player != "")) then {
-                        if (_currentSide != east) then {
-                            [_player] joinSilent createGroup east;
-                            _player sideChat "You have switched to the Opfor side";
-                        };
-                    } else {
-                        if (time - _lastSwitchTime > 90) then {
-                            if (_currentSide != civilian) then {
-                                [_player] joinSilent createGroup civilian;
-                                _player sideChat "You have switched to the Civilian side";
-                                _lastSwitchTime = time;
-                            };
+        GOM_fnc_actionConditionRecruit = {
+            params ["_self", "_target"];
+
+            (_target isEqualTo _self
+            && {_target isEqualTo vehicle _target}
+            && {cursorObject != objNull}
+            && {cursorObject isKindOf "CAManBase"}
+            && {alive cursorObject}
+            && {side cursorObject in ([side _self] call BIS_fnc_friendlySides)}
+            && {_target distance cursorObject <= 15})
+        };
+
+        player addAction [
+            "Recruit",
+            { [cursorObject] join group player; },
+            [],
+            0,
+            true,
+            true,
+            "",
+            "[_this,_target] call GOM_fnc_actionConditionRecruit"
+        ];
+    };
+};
+
+if (isServer) then {
+    [] spawn {
+        private _eastGroup = createGroup east;
+        private _civilianGroup = createGroup civilian;
+        private _playerSlots = [
+            "player1", "player2", "player3", "player4", "player5", "player6", "player7", "player8", "player9",
+            "player10", "player11", "player12", "player13", "player14", "player15", "player16", "player17", "player18"
+        ];
+
+        while {true} do {
+            {
+                private _playerUnit = missionNamespace getVariable [_x, objNull];
+                if (!isNull _playerUnit && {alive _playerUnit} && {(side _playerUnit) != west}) then {
+                    private _targetSide = civilian;
+                    if ((primaryWeapon _playerUnit != "") || (handgunWeapon _playerUnit != "") || (secondaryWeapon _playerUnit != "")) then {
+                        _targetSide = east;
+                    };
+
+                    if ((side _playerUnit) != _targetSide) then {
+                        if (_targetSide isEqualTo east) then {
+                            [_playerUnit] joinSilent _eastGroup;
+                        } else {
+                            [_playerUnit] joinSilent _civilianGroup;
                         };
                     };
-                } else {
-                    _stop pushBack _x;
                 };
-            };
-        };
-    } forEach _players;
-    sleep 10;
-};
+            } forEach _playerSlots;
 
+            sleep 8;
+        };
+    };
+};

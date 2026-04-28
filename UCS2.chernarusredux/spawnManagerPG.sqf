@@ -5,79 +5,80 @@ params [
     "_side",
     "_unitPool",
     "_unitCount",
-    "_patrolRatio",     // New! e.g., 0.6 means 60% patrol
-    "_garrisonRadius",  // New! how far to search for buildings
-    "_patrolRadius"     // New! how far patrols can wander
+    "_patrolRatio",
+    "_garrisonRadius",
+    "_patrolRadius"
 ];
 
 if (!isServer) exitWith {};
-
 if (!isNil "clearedAreas" && {_areaID in clearedAreas}) exitWith {};
 if (isNil "areaGroups") then { areaGroups = createHashMap; };
 if (!isNil { areaGroups get _areaID }) exitWith {};
 
-// -- Weighted random selector --
 private _pickUnit = {
-    params ["_unitPool"];
+    params ["_pool"];
     private _roll = random 1;
     private _cumulative = 0;
+    private _selected = (_pool select 0) select 0;
+
     {
         _cumulative = _cumulative + (_x select 1);
-        if (_roll <= _cumulative) exitWith { _x select 0 };
-    } forEach _unitPool;
+        if (_roll <= _cumulative) exitWith {
+            _selected = _x select 0;
+        };
+    } forEach _pool;
+
+    _selected
 };
 
-// -- Spawn logic --
 private _groupSizeLimit = 8;
-private _currentGroup = createGroup _side;
-private _allGroups = [_currentGroup];
-private _currentCount = 0;
 private _spawnedUnits = [];
+private _allGroups = [];
+private _currentGroup = grpNull;
+private _currentCount = 0;
 
 for "_i" from 1 to _unitCount do {
-    if (_currentCount >= _groupSizeLimit) then {
+    if (isNull _currentGroup || {_currentCount >= _groupSizeLimit}) then {
         _currentGroup = createGroup _side;
         _allGroups pushBack _currentGroup;
         _currentCount = 0;
     };
+
     private _unitType = [_unitPool] call _pickUnit;
     private _unit = _currentGroup createUnit [_unitType, _spawnPos, [], 5, "NONE"];
     _spawnedUnits pushBack _unit;
     _currentCount = _currentCount + 1;
 };
 
-// -- Behavior logic --
+private _nearBuildings = nearestObjects [_spawnPos, ["House"], _garrisonRadius];
+private _buildingSlots = [];
 {
-    private _rand = random 1;
-    if (_rand <= _patrolRatio) then {
-        [_x, _spawnPos, _patrolRadius] spawn {
-            params ["_unit", "_centerPos", "_radius"];
-            while {alive _unit} do {
-                private _patrolPoint = [
-                    (_centerPos select 0) + (random (_radius * 2)) - _radius,
-                    (_centerPos select 1) + (random (_radius * 2)) - _radius,
-                    0
-                ];
-                _unit doMove _patrolPoint;
-                sleep (15 + random 15);
-            };
-        };
+    {
+        _buildingSlots pushBack _x;
+    } forEach ([_x] call BIS_fnc_buildingPositions);
+} forEach _nearBuildings;
+
+private _patrolGroup = createGroup _side;
+_allGroups pushBack _patrolGroup;
+
+{
+    if (random 1 <= _patrolRatio) then {
+        [_x] joinSilent _patrolGroup;
     } else {
-        [_x, _spawnPos, _garrisonRadius] spawn {
-            params ["_unit", "_centerPos", "_radius"];
-            private _nearBuildings = nearestObjects [_centerPos, ["House"], _radius];
-            if (count _nearBuildings > 0) then {
-                private _house = selectRandom _nearBuildings;
-                private _positions = [_house] call BIS_fnc_buildingPositions;
-                if (count _positions > 0) then {
-                    private _chosenPos = selectRandom _positions;
-                    _unit setPosATL _chosenPos;
-                    _unit disableAI "PATH";
-                };
-            };
+        if (_buildingSlots isNotEqualTo []) then {
+            private _slotIndex = floor (random (count _buildingSlots));
+            private _chosenPos = _buildingSlots deleteAt _slotIndex;
+            _x setPosATL _chosenPos;
+            _x disableAI "PATH";
         };
     };
 } forEach _spawnedUnits;
 
-// Save
+if ((count units _patrolGroup) > 0) then {
+    [_patrolGroup, _spawnPos, _patrolRadius] call BIS_fnc_taskPatrol;
+} else {
+    deleteGroup _patrolGroup;
+    _allGroups deleteAt ((count _allGroups) - 1);
+};
+
 areaGroups set [_areaID, _allGroups];
