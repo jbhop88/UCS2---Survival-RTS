@@ -17,13 +17,14 @@ setDynamicSimulationDistanceCoef 1;
 [] spawn {
     while {true} do {
         {
-            if (!isPlayer _x) then {
+            if (!isPlayer _x && {!(_x getVariable ["UCS2_disableDynamicSimulation", false])}) then {
                 _x enableDynamicSimulation true;
             };
         } forEach allUnits;
 
         {
-            if (!(crew _x findIf { isPlayer _x } >= 0)) then {
+            if (!(crew _x findIf { isPlayer _x } >= 0)
+                && {!(_x getVariable ["UCS2_disableDynamicSimulation", false])}) then {
                 _x enableDynamicSimulation true;
             };
         } forEach vehicles;

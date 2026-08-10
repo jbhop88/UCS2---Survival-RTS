@@ -379,8 +379,14 @@ if (isServer) then {
 
                     if ((side _playerUnit) != _targetSide) then {
                         if (_targetSide isEqualTo east) then {
+                            if (isNull _eastGroup) then {
+                                _eastGroup = createGroup east;
+                            };
                             [_playerUnit] joinSilent _eastGroup;
                         } else {
+                            if (isNull _civilianGroup) then {
+                                _civilianGroup = createGroup civilian;
+                            };
                             [_playerUnit] joinSilent _civilianGroup;
                         };
                     };

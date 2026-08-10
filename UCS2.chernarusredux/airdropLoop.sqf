@@ -165,6 +165,10 @@ private _crates = [
             private _plane = createVehicle ["Aegis_C_IDAP_Plane_Transport_01_civil_F", _startPos, [], 0, "FLY"];
             private _pilotGroup = createGroup civilian;
             private _pilot = _pilotGroup createUnit ["C_man_pilot_F", _startPos, [], 0, "NONE"];
+            _plane setVariable ["UCS2_disableDynamicSimulation", true];
+            _pilot setVariable ["UCS2_disableDynamicSimulation", true];
+            _plane enableDynamicSimulation false;
+            _pilot enableDynamicSimulation false;
             _pilot moveInDriver _plane;
             _pilot setCaptive true;
 
