@@ -1,3 +1,5 @@
+if (!isServer) exitWith {};
+
 private _dropMarkers = ["DZ1", "DZ2", "DZ3", "DZ4", "DZ5"];
 private _planeStartMarkers = ["PS1", "PS2"];
 private _planeEndMarkers = ["PE1", "PE2"];
@@ -33,7 +35,6 @@ private _crates = [
             _crate addMagazineCargo ["VA_CookedMeal", 15];
             _crate addMagazineCargo ["VA_Disinfectant", 20];
 
-
             _crate
         }
     ],
@@ -54,75 +55,75 @@ private _crates = [
         }
     ],
     [
-    0.10,
-    {
-        private _crate = createVehicle ["C_IDAP_supplyCrate_F", [0,0,0], [], 0, "NONE"];
-        clearItemCargoGlobal _crate;
-        clearMagazineCargoGlobal _crate;
-        clearWeaponCargoGlobal _crate;
-        clearBackpackCargoGlobal _crate;
+        0.10,
+        {
+            private _crate = createVehicle ["C_IDAP_supplyCrate_F", [0,0,0], [], 0, "NONE"];
+            clearItemCargoGlobal _crate;
+            clearMagazineCargoGlobal _crate;
+            clearWeaponCargoGlobal _crate;
+            clearBackpackCargoGlobal _crate;
 
-        _crate addMagazineCargo ["VA_Bandages", 10];
-        _crate addMagazineCargo ["VA_Rice", 10];
-        _crate addMagazineCargo ["VA_Waterbottle_full_c", 20];
-        _crate addMagazineCargo ["VA_RawBeans", 20];
-        _crate addMagazineCargo ["VA_Knife", 2];
-        _crate addMagazineCargo ["VA_Matches", 10];
-        _crate addMagazineCargo ["VA_Flashlight", 5];
-        _crate addMagazineCargo ["VA_Batteries", 8];
+            _crate addMagazineCargo ["VA_Bandages", 10];
+            _crate addMagazineCargo ["VA_Rice", 10];
+            _crate addMagazineCargo ["VA_Waterbottle_full_c", 20];
+            _crate addMagazineCargo ["VA_RawBeans", 20];
+            _crate addMagazineCargo ["VA_Knife", 2];
+            _crate addMagazineCargo ["VA_Matches", 10];
+            _crate addMagazineCargo ["VA_Flashlight", 5];
+            _crate addMagazineCargo ["VA_Batteries", 8];
 
-        _crate
-    }
-],
-[
-    0.15,
-    {
-        private _crate = createVehicle ["Land_PlasticCase_01_large_idap_F", [0,0,0], [], 0, "NONE"];
-        clearItemCargoGlobal _crate;
-        clearMagazineCargoGlobal _crate;
-        clearWeaponCargoGlobal _crate;
-        clearBackpackCargoGlobal _crate;
+            _crate
+        }
+    ],
+    [
+        0.15,
+        {
+            private _crate = createVehicle ["Land_PlasticCase_01_large_idap_F", [0,0,0], [], 0, "NONE"];
+            clearItemCargoGlobal _crate;
+            clearMagazineCargoGlobal _crate;
+            clearWeaponCargoGlobal _crate;
+            clearBackpackCargoGlobal _crate;
 
-        _crate addMagazineCargo ["VA_Hammer", 2];
-        _crate addMagazineCargo ["VA_Pliers", 2];
-        _crate addMagazineCargo ["VA_Ducttape", 15];
-        _crate addMagazineCargo ["VA_Nails", 25];
-        _crate addMagazineCargo ["VA_WoodenboardS", 10];
-        _crate addMagazineCargo ["VA_Screwdriver", 2];
-        _crate addMagazineCargo ["VA_Screws", 25];
-        _crate addMagazineCargo ["VA_Wire", 10];
-        _crate addMagazineCargo ["VA_ScrapMetal", 10];
-        _crate addMagazineCargo ["VA_Rope", 10]; 
-        _crate addMagazineCargo ["VA_fuelCan", 2];
-        _crate addMagazineCargo ["VA_Saw", 2];
-        _crate addMagazineCargo ["VA_Shovel", 2];
-        _crate addMagazineCargo ["VA_Axe", 2];
+            _crate addMagazineCargo ["VA_Hammer", 2];
+            _crate addMagazineCargo ["VA_Pliers", 2];
+            _crate addMagazineCargo ["VA_Ducttape", 15];
+            _crate addMagazineCargo ["VA_Nails", 25];
+            _crate addMagazineCargo ["VA_WoodenboardS", 10];
+            _crate addMagazineCargo ["VA_Screwdriver", 2];
+            _crate addMagazineCargo ["VA_Screws", 25];
+            _crate addMagazineCargo ["VA_Wire", 10];
+            _crate addMagazineCargo ["VA_ScrapMetal", 10];
+            _crate addMagazineCargo ["VA_Rope", 10];
+            _crate addMagazineCargo ["VA_fuelCan", 2];
+            _crate addMagazineCargo ["VA_Saw", 2];
+            _crate addMagazineCargo ["VA_Shovel", 2];
+            _crate addMagazineCargo ["VA_Axe", 2];
 
-        _crate
-    }
-],
-[
-    0.10,
-    {
-        private _crate = createVehicle ["Land_PlasticCase_01_small_idap_F", [0,0,0], [], 0, "NONE"];
-        clearItemCargoGlobal _crate;
-        clearMagazineCargoGlobal _crate;
-        clearWeaponCargoGlobal _crate;
-        clearBackpackCargoGlobal _crate;
+            _crate
+        }
+    ],
+    [
+        0.10,
+        {
+            private _crate = createVehicle ["Land_PlasticCase_01_small_idap_F", [0,0,0], [], 0, "NONE"];
+            clearItemCargoGlobal _crate;
+            clearMagazineCargoGlobal _crate;
+            clearWeaponCargoGlobal _crate;
+            clearBackpackCargoGlobal _crate;
 
-        _crate addMagazineCargo ["VA_Elecomp", 4];
-        _crate addMagazineCargo ["VA_LightBulp", 2];
-        _crate addMagazineCargo ["VA_Screwdriver", 1];
-        _crate addMagazineCargo ["VA_Earplugs", 2];
-        _crate addMagazineCargo ["VA_Bandages", 10];
-        _crate addMagazineCargo ["VA_Rice", 10];
-        _crate addMagazineCargo ["VA_Waterbottle_full_s", 10];
-        _crate addMagazineCargo ["VA_RawBeans", 10]; 
-        _crate addMagazineCargo ["VA_SoundGrenade", 2];
+            _crate addMagazineCargo ["VA_Elecomp", 4];
+            _crate addMagazineCargo ["VA_LightBulp", 2];
+            _crate addMagazineCargo ["VA_Screwdriver", 1];
+            _crate addMagazineCargo ["VA_Earplugs", 2];
+            _crate addMagazineCargo ["VA_Bandages", 10];
+            _crate addMagazineCargo ["VA_Rice", 10];
+            _crate addMagazineCargo ["VA_Waterbottle_full_s", 10];
+            _crate addMagazineCargo ["VA_RawBeans", 10];
+            _crate addMagazineCargo ["VA_SoundGrenade", 2];
 
-        _crate
-    }
-]
+            _crate
+        }
+    ]
 ];
 
 [
@@ -145,16 +146,13 @@ private _crates = [
             private _roll = random 1;
             private _cumulative = 0;
             private _selectedCrateFunc = {
-                private _crate = createVehicle ["Box_NATO_Ammo_F", [0,0,0], [], 0, "NONE"];
-                _crate
+                createVehicle ["Box_NATO_Ammo_F", [0,0,0], [], 0, "NONE"]
             };
 
             {
-                private _chance = _x select 0;
-                private _func = _x select 1;
-                _cumulative = _cumulative + _chance;
+                _cumulative = _cumulative + (_x select 0);
                 if (_roll < _cumulative) exitWith {
-                    _selectedCrateFunc = _func;
+                    _selectedCrateFunc = _x select 1;
                 };
             } forEach _crates;
 
@@ -164,25 +162,25 @@ private _crates = [
             _dropPos set [2, 280];
             _endPos set [2, 280];
 
-            // Create plane
             private _plane = createVehicle ["Aegis_C_IDAP_Plane_Transport_01_civil_F", _startPos, [], 0, "FLY"];
             private _pilotGroup = createGroup civilian;
             private _pilot = _pilotGroup createUnit ["C_man_pilot_F", _startPos, [], 0, "NONE"];
+            _plane setVariable ["UCS2_disableDynamicSimulation", true];
+            _pilot setVariable ["UCS2_disableDynamicSimulation", true];
+            _plane enableDynamicSimulation false;
+            _pilot enableDynamicSimulation false;
             _pilot moveInDriver _plane;
             _pilot setCaptive true;
 
-            // Add waypoints
             _pilotGroup addWaypoint [_dropPos, 0];
             _pilotGroup addWaypoint [_endPos, 0];
 
-            // Drop logic
             [_plane, _dropPos, _selectedCrateFunc] spawn {
                 params ["_plane", "_dropPos", "_crateFunc"];
-                waitUntil {(_plane distance2D _dropPos) < 200};
+                waitUntil { sleep 0.25; (_plane distance2D _dropPos) < 200 || !alive _plane };
+                if (!alive _plane) exitWith {};
 
-                private _altitude = getPosASL _plane select 2;
-                private _cratePos = [_dropPos select 0, _dropPos select 1, _altitude];
-
+                private _cratePos = [(_dropPos select 0), (_dropPos select 1), ((getPosASL _plane) select 2)];
                 private _crate = call _crateFunc;
                 _crate setPosASL _cratePos;
 
@@ -190,8 +188,11 @@ private _crates = [
                 _chute setVelocity velocity _plane;
                 _crate attachTo [_chute, [0,0,0]];
 
-                waitUntil {getPos _crate select 2 < 5};
+                waitUntil { sleep 0.5; (getPos _crate select 2) < 5 || isNull _crate };
+                if (isNull _crate) exitWith {};
+
                 detach _crate;
+                deleteVehicle _chute;
 
                 private _markerId = format ["drop_%1", diag_tickTime];
                 private _marker = createMarker [_markerId, position _crate];
@@ -200,48 +201,34 @@ private _crates = [
                 _marker setMarkerColor "ColorBlue";
                 _marker setMarkerText "Supply Drop";
 
-                private _timeout = time + 5400;
+                _crate setVariable ["UCS2_dropMarker", _markerId, true];
+                _crate addEventHandler ["ContainerOpened", {
+                    params ["_container"];
+                    private _dropMarker = _container getVariable ["UCS2_dropMarker", ""];
+                    if (_dropMarker != "") then {
+                        deleteMarker _dropMarker;
+                        _container setVariable ["UCS2_dropMarker", "", true];
+                    };
+                }];
 
-                // Remove marker when player opens crate
                 [_crate, _markerId] spawn {
-    params ["_crate", "_markerId"];
-    private _timeout = time + 5400;
+                    params ["_crate", "_markerId"];
+                    sleep 5400;
 
-    waitUntil {
-        sleep 1;
-
-        if (isNull _crate) exitWith {true};
-
-        private _found = false;
-        {
-            if (
-                alive _x &&
-                (_x distance _crate < 5) &&
-                inputAction "Gear" > 0 // player has gear/inventory open
-            ) exitWith { _found = true };
-        } forEach allPlayers;
-
-        _found || (time > _timeout)
-    };
-
-    deleteMarker _markerId;
-
-    // Also clean up the crate if it's timed out
-    if (!isNull _crate && time > _timeout) then {
-        deleteVehicle _crate;
-    };
-};
-
+                    deleteMarker _markerId;
+                    if (!isNull _crate) then {
+                        deleteVehicle _crate;
+                    };
+                };
             };
 
-            // Cleanup plane
             [_plane, _pilot, _pilotGroup, _endPos] spawn {
                 params ["_plane", "_pilot", "_pilotGroup", "_endPos"];
-                waitUntil {(_plane distance2D _endPos) < 300};
+                waitUntil { sleep 0.5; (_plane distance2D _endPos) < 300 || !alive _plane };
                 sleep 5;
-                deleteVehicle _plane;
-                deleteVehicle _pilot;
-                deleteGroup _pilotGroup;
+                if (!isNull _plane) then { deleteVehicle _plane; };
+                if (!isNull _pilot) then { deleteVehicle _pilot; };
+                if (!isNull _pilotGroup) then { deleteGroup _pilotGroup; };
             };
 
             _currentChance = _dropChance;
